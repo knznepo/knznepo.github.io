@@ -1,0 +1,74 @@
+/* ===== Variables ===== */
+
+/* fonts */
+@font-face {
+  font-family: segoeui;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/segoeui.eot");
+  src: url("../fonts/segoeui.eot?#iefix") format("embedded-opentype"), url("../fonts/segoeui.woff") format("woff"), url("../fonts/segoeui.ttf") format("truetype"), url("../fonts/segoeui.svg#segoeui") format("svg");
+}
+@font-face {
+  font-family: segoeuib;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/segoeuib.eot");
+  src: url("../fonts/segoeuib.eot?#iefix") format("embedded-opentype"), url("../fonts/segoeuib.woff") format("woff"), url("../fonts/segoeuib.ttf") format("truetype"), url("../fonts/segoeuib.svg#segoeuib") format("svg");
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+* { font-family: 'segoeui', Arial, san-serif; outline: none !important; }
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+/* colors */
+$gray: #7E7E85;
+$maroon: #AF4F44;
+$flatblue: #6fa8dd;
+$flatgray: #A7A0A2;
+$darkgray: #464B4F;
+
+@mixin soft-fx($ease: .3s) {
+-webkit-transition: all $ease ease-in-out;
+   -moz-transition: all $ease ease-in-out;
+	-ms-transition: all $ease ease-in-out;
+	 -o-transition: all $ease ease-in-out;
+		transition: all $ease ease-in-out;
+}
+
+@mixin box-radius($radius: 4px) {
+-webkit-border-radius: $radius;
+   -moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	 -o-border-radius: $radius;
+		border-radius: $radius;
+}
+
+@mixin box-shadow($px) {
+-webkit-box-shadow: $px !important;
+   -moz-box-shadow: $px !important;
+    -ms-box-shadow: $px !important;
+   	 -o-box-shadow: $px !important;
+   		box-shadow: $px !important;
+}
+
+/* classes */
+.one-page {
+	min-height: 100%;
+	display: block;
+	position: relative;
+}
+
+.page-title {
+	font-family: 'Gudea-Regular', san-serif;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.clear-float {
+	clear: both;
+}
+
+/* ===== End Variables ===== */

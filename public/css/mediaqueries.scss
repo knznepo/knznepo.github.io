@@ -1,0 +1,133 @@
+@import 'variables.scss';
+
+/* ===== Mediaqueries ===== */
+
+@media (min-width: 992px) {
+ 
+}
+
+@media (max-width: 768px) {
+
+	#home-header {
+		background-size: 175%;
+	}
+
+	/* home header */
+	#social-links {
+		display: block;
+    	float: none;
+    	margin: 20px auto 60px !important;
+    	width: 245px;
+    	padding: 0;
+
+		ul {
+			margin: 0 auto;
+			float: none;
+			width: auto;
+		}
+		li {
+			margin-left: 5px !important;
+		}
+	}
+	
+	#me {
+		display: block;
+		margin: 0 auto 50px;
+		width: 191px;
+	}
+
+	#site-name, #my-short-description {
+		text-align: center !important;
+	}
+
+	#site-name {
+		font-size: 1.7em;
+	}
+	
+	#tagline {
+		@include soft-fx();
+		text-align: center !important;
+		font-size: 123%;
+	}
+
+	#main-nav {
+
+		margin-top: 0 !important;
+
+		a { 
+			display: inline-block; 
+			width: 100%;
+		}
+
+		a:hover {
+			background: #6ea6dd;
+			color: #fff !important;
+		}
+
+		.col-sm-6 {
+			@include soft-fx();
+			text-align: center;
+			margin: 0;
+			
+			a {
+				padding: 5%;
+				display: inline-block;
+			}
+		}
+
+		.col-sm-6:hover {
+			background: $flatblue;
+			a {
+				color: #fff;
+			}
+		}
+	}
+	/* home header */
+
+	/* footer */
+	#contact-dp {
+		margin-bottom: 20px;
+	}
+
+	#contact-card p {
+		text-align: center;
+	}	
+
+	#contact .social-links {
+		margin: 0 auto;
+		width: 190px;
+	}
+	/* footer end */
+
+}
+
+@media (max-width: 500px) {
+	#about-me p,
+	#my-short-description {
+		font-size: 1.6em !important;
+	}
+
+	#works {
+		li a {
+			span {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 338px) {
+	#site-name a {
+		font-size: 150% !important;
+		line-height: .9em;
+	}
+
+	#main-nav {
+		@include soft-fx();
+		text-align: center;
+		margin-top: 20% !important;
+		margin-bottom: 25% !important;
+	}
+}
+
+/* ===== End Mediaqueries ===== */
