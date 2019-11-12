@@ -30,8 +30,11 @@
 
 @media only screen and ( max-width: 600px ) {
   #about img {
-    top: 200px !important;
-    right: -190px !important;
+    position: relative;
+    top: 0;
+    height: auto;
+    left: 0;
+    margin: 0 auto;
   }
 }
 
