@@ -28,12 +28,11 @@
   left: 70px;
 }
 
-@media only screen and ( max-width: 600px ) {
+@media only screen and ( max-width: 720px ) {
   #about img {
-    position: relative;
     top: 0;
-    height: auto;
     left: 0;
+    position: relative;
     margin: 0 auto;
   }
 }
