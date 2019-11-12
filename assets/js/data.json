@@ -1,0 +1,107 @@
+[
+  {
+    "title": "APResource",
+    "type": "laravel",
+    "link": "https://paper.dropbox.com/doc/APResource-QQJGopdO2o171fe0L6YT5",
+    "desc": "File storage system",
+    "status": "private"
+  },
+  {
+    "title": "MPDS",
+    "type": "codeigniter",
+    "link": "https://paper.dropbox.com/doc/MPDS--AodUm3055qAJMBlaGrmtkvEHAQ-OjYQU3oCxugJXJyremEP3",
+    "desc": "Ministry performance development system",
+    "status": "private"
+  },
+  {
+    "title": "Unleash2019",
+    "type": "codeigniter",
+    "link": "http://unleash2019.asia",
+    "desc": "Conference registration website",
+    "status": "public"
+  },
+  {
+    "title": "WMC-AP",
+    "type": "wordpress",
+    "link": "http://wmc-ap.org/",
+    "desc": "Media company portfolio <small>( this is where I work )</small>",
+    "status": "public"
+  },
+  {
+    "title": "SpeedDriven",
+    "type": "wordpress",
+    "link": "http://speeddriven.ph/",
+    "desc": "Car wash business - wordpress + inventory system built in codeigniter",
+    "status": "public"
+  },
+  {
+    "title": "NYIMANILA",
+    "type": "codeigniter",
+    "link": "https://www.behance.net/gallery/48753809/NYIMANILASITE",
+    "desc": "Conference registration website",
+    "status": "dead"
+  },
+  {
+    "title": "eMerge 2016",
+    "type": "codeigniter",
+    "link": "https://www.behance.net/gallery/48756787/eMerge2016-Web-Registration-Form",
+    "desc": "Conference website with registration",
+    "status": "dead"
+  },
+  {
+    "title": "Nazarene",
+    "type": "drupal",
+    "link": "http://nazarene.org/",
+    "desc": "Global church website",
+    "status": "public"
+  },
+  {
+    "title": "USA-CANADA region",
+    "type": "drupal",
+    "link": "http://beta.usacanadaregion.org/",
+    "desc": "Nazarene usa-canada region website",
+    "status": "public"
+  },
+  {
+    "title": "Vision441",
+    "type": "wordpress",
+    "link": "http://vision441.org/",
+    "desc": "Devotional material resources",
+    "status": "public"
+  },
+  {
+    "title": "mgroup",
+    "type": "wordpress",
+    "link": "http://mgroup.com.ph/",
+    "desc": "Fine dining",
+    "public": "status"
+  },
+  {
+    "title": "TMJAF 2014",
+    "type": "wordpress",
+    "link": "#",
+    "desc": "Tokyo Manila Jazz & Arts Festival",
+    "status": "dead"
+  },
+  {
+    "title": "FEBC",
+    "type": "wordpress",
+    "link": "http://febc.ph/",
+    "desc": "Broadcasting company in the Philippines",
+    "status": "public"
+  },
+  {
+    "title": "MX Messiah Fairgrounds",
+    "type": "wordpress",
+    "link": "http://mxmessiahfairgrounds.com/",
+    "desc": "Motocross Events website <small>(since 2011)</small>",
+    "status": "public"
+  },
+  {
+    "title": "Harris Memorial College",
+    "type": "wordpress",
+    "link": "http://www.harris.edu.ph/",
+    "desc": "School Website <small>(already redesigned)</small>",
+    "status": "dead"
+  }
+]
