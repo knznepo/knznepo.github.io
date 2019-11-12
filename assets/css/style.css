@@ -28,7 +28,7 @@
   left: 70px;
 }
 
-@media only screen and ( max-width: 640px ) {
+@media only screen and ( max-width: 600px ) {
   #about img {
     top: 200px !important;
     right: -190px !important;
