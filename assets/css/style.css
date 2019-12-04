@@ -140,9 +140,10 @@ p, table td {
 
 @media only screen and ( max-width: 720px ) {
   br {
+    content: '';
     display: none;
   }
-  
+
   #about img {
     position: relative;
     left: auto;
