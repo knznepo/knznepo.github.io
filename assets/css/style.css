@@ -101,8 +101,8 @@ p, table td {
 }
 
 #skills a:hover,
-#skills a:hover > i,
-#skills a:hover > img {
+#skills-links a:hover > i,
+#skills-links a:hover > img {
   text-decoration: none;
   color: #f18806;
 }
