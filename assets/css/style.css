@@ -100,7 +100,9 @@ p, table td {
   color: #6f6f6f;
 }
 
-#skills a:hover, #skills a:hover > i {
+#skills a:hover,
+#skills a:hover > i,
+#skills a:hover > img {
   text-decoration: none;
   color: #f18806;
 }
