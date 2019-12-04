@@ -37,10 +37,10 @@ body p {
 }
 
 #about img {
-  height: 250px;
+  height: 280px;
   margin: 0 auto;
   display: block;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #social-links i {
@@ -160,5 +160,11 @@ p, table td {
 
   .container-slim {
     width: inherit;
+  }
+
+  #skills-links a {
+    display: block;
+    float: left;
+    width: 50%;
   }
 }

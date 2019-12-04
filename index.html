@@ -86,8 +86,8 @@
           <div id="skills-links">
             <p>
               <a href="https://laravel.com/" target="_blank" title="Laravel"><i class="fab fa-laravel"></i>Laravel</a>
-              <a href="https://codeigniter.com/" target="_blank" title="Codeigniter"><i class="fa-codeigniter"></i>CodeIgniter</a>
-              <a href="https://wordpress.org/" target="_blank" title="WordPress"><i class="fab fa-wordpress"></i>Wordpress</a>
+              <a href="https://codeigniter.com/" target="_blank" title="Codeigniter"><i class="fa-codeigniter"></i>Codeigniter</a>
+              <a href="https://wordpress.org/" target="_blank" title="WordPress"><i class="fab fa-wordpress"></i>WordPress</a>
               <a href="https://www.drupal.org/" target="_blank" title="Drupal"><i class="fab fa-drupal"></i>Drupal</a>
             </p>
 
@@ -125,6 +125,8 @@
                 <i class="fas fa-mug-hot"></i>Coffee
               </a>
             </p>
+
+            <div class="clearfix"></div>
           </div><!-- skills-links -->
         </div><!-- skills -->
 
@@ -137,7 +139,7 @@
               <td width="8%"><i class="fab" v-bind:class="'fa-'+item.type"></i></td>
               <td>
                 <a v-bind:href="item.link" target="_blank">{{ item.title }}</a>
-                <small v-if="item.status == 'dead'" title="dead link">☠︎ (dead site)</small>
+                <small v-if="item.status == 'dead'" title="dead link">☠︎ (dead)</small>
                 <small v-if="item.status == 'private'" title="private">🔒(private)</small>
 
                 <p class="text-muted" v-html="item.desc"></p>
@@ -170,7 +172,7 @@
     <footer id="main-footer" class="mb-5 pb-3">
       <div class="container container-slim">
         <p class="text-center">&copy; 2019. All rights reserved. <br/>
-          <a href="https://knznepo.github.io/old/index.html">Visit old site</a>
+          <a href="https://knznepo.github.io/old/index.html">2017-2018</a>
         </p>
       </div>
     </footer>
