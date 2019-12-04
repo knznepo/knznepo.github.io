@@ -1,3 +1,8 @@
+body p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
 #main-nav {
   background: #fff !important;
   border-bottom: 1px solid #eee;
@@ -24,12 +29,18 @@
   display: none;
 }
 
-#about img {
-  height: 240px;
+#about {
+  width: 100%;
+  display: block;
+  text-align: center;
   margin: 0 auto;
-  position: absolute;
-  top: -42px;
-  left: 70px;
+}
+
+#about img {
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #social-links i {
@@ -39,8 +50,8 @@
 .fa-codeigniter {
   background-image: url(https://cdn.iconscout.com/icon/free/png-512/codeigniter-1-458250.png);
   position: relative;
-  width: 25px;
-  height: 26px;
+  width: 21px;
+  height: 23px;
   opacity: .8;
   display: inline-block;
   background-size: 100%;
@@ -74,20 +85,36 @@ p, table td {
   color: #6f6f6f;
 }
 
-#skills a:hover {
+
+#skills h4 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#skills-links p {
+  margin: 30px auto;
+}
+
+#skills a {
+  padding: 10px;
+  color: #6f6f6f;
+}
+
+#skills a:hover, #skills a:hover > i {
   text-decoration: none;
+  color: #f18806;
 }
 
 #skills i {
-  font-size: 1.5em;
-  margin-right: 15px;
+  font-size: 1em;
   color: #6f6f6f;
+  margin-right: 3px;
 }
 
 #skills img {
   opacity: .6;
   margin-right: 15px;
-  width: 25px;
+  width: 18px;
 }
 
 #works-table {

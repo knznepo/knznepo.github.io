@@ -7,7 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://knznepo.github.io/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://knznepo.github.io/assets/css/style.css"> -->
     <script src="https://kit.fontawesome.com/d43bb2fcad.js" crossorigin="anonymous"></script>
 
     <!-- meta -->
@@ -65,87 +66,69 @@
 
     <section id="main-container" class="mb-5 pb-3">
       <div class="container container-slim mt-5 pt-3">
-        <div id="about">
-          <div class="row">
-            <div id="avatar-left" class="col-md-2">
-              <img src="https://knznepo.github.io/old/public/css/images/me.png">
-            </div><!-- col -->
 
-            <div class="col-md-8">
-              <h2><strong>👋🏼 Hi I'm Kenaz</strong></h2>
-              <p>
-                Web developer & designer since 2011. Based in the Philippines.🇵🇭 <br>
-                Currently self-studying mobile development with react-native. <br>
-                Fluent in Lorem ipsum dolor.
-              </p>
-            </div><!-- col -->
-            <div id="avatar-right" class="col-md-2">
-              <img src="https://knznepo.github.io/old/public/css/images/me.png">
-            </div><!-- col -->
-          </div><!-- row -->
+        <div id="about" class="pb-5">
+          <img src="https://knznepo.github.io/old/public/css/images/me.png">
+
+          <h2><strong>👋🏼 Hi I'm Kenaz</strong></h2>
+          <p>
+            Web developer & designer since 2011. Based in the Philippines.🇵🇭<br/>
+            Currently self-studying mobile development with react-native. <br/>
+            Fluent in Lorem ipsum.
+          </p>
         </div><!-- about -->
 
-        <div id="skills" class="mt-5 pt-3">
+        <div id="skills" class="mt-5 pt-5 pb-5">
           <h2>⚔️ Skills</h2>
           <p>Here are the tools I use on my works.</p>
           <hr/>
 
-          <table class="table table-borderless">
-            <tr>
-              <td>
-                <a href="https://www.php.net/" target="_blank" title="PHP"><i class="fab fa-php"></i></a>
-                <a href="https://laravel.com/" target="_blank" title="Laravel"><i class="fab fa-laravel"></i></a>
-                <a href="https://codeigniter.com/" target="_blank" title="Codeigniter"><i class="fa-codeigniter"></i></a>
-                <a href="https://wordpress.org/" target="_blank" title="WordPress"><i class="fab fa-wordpress"></i></a>
-                <a href="https://www.drupal.org/" target="_blank" title="Drupal"><i class="fab fa-drupal"></i></a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="Javascript"><i class="fab fa-js"></i></a>
-                <a href="https://vuejs.org/" target="_blank" title="VueJS"><i class="fab fa-vuejs"></i></a>
-                <a href="https://reactjs.org/" target="_blank" title="ReactJS"><i class="fab fa-react"></i></a>
-                <a href="https://nodejs.org/en/" target="_blank" title="NodeJS"><i class="fab fa-node-js"></i></a>
-                <a href="https://www.npmjs.com/" target="_blank" title="NPM"><i class="fab fa-npm"></i></a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://www.w3schools.com/css/" target="_blank" title="CSS"><i class="fab fa-css3-alt"></i></a>
-                <a href="https://sass-lang.com/" target="_blank" title="SASS"><i class="fab fa-sass"></i></a>
-                <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap"><i class="fab fa-bootstrap"></i></a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://www.photoshop.com/" target="_blank" title="Photoshop">
-                  <img src="data:image/png;base64,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">
-                </a>
-                <a href="https://www.adobe.com/products/xd.html" target="_blank" title="XD">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3X9dUuXtM2-g354tRGiKLl2fkOKBFZKZ1i4qGTvPHU6llxRu&s">
-                </a>
-                <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" title="Lightroom">
-                  <img src="https://cdn1.iconfinder.com/data/icons/adobe-apps-2/48/adobe_-_Glyph-04-512.png" style="width: 33px;margin-left: -4px;">
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://atom.io/" target="_blank" title="atom">
-                  <i class="fas fa-atom"></i>
-                </a>
-                <a title="Laptop">
-                  <i class="fas fa-laptop"></i>
-                </a>
-                <a title="Coffee">
-                  <i class="fas fa-mug-hot"></i>
-                </a>
-              </td>
-            </tr>
-          </table>
+          <div id="skills-links">
+            <p>
+              <a href="https://laravel.com/" target="_blank" title="Laravel"><i class="fab fa-laravel"></i>Laravel</a>
+              <a href="https://codeigniter.com/" target="_blank" title="Codeigniter"><i class="fa-codeigniter"></i>CodeIgniter</a>
+              <a href="https://wordpress.org/" target="_blank" title="WordPress"><i class="fab fa-wordpress"></i>Wordpress</a>
+              <a href="https://www.drupal.org/" target="_blank" title="Drupal"><i class="fab fa-drupal"></i>Drupal</a>
+            </p>
+
+            <p>
+              <a href="https://reactjs.org/" target="_blank" title="ReactJS"><i class="fab fa-react"></i>ReactJS</a>
+              <a href="https://vuejs.org/" target="_blank" title="VueJS"><i class="fab fa-vuejs"></i>VueJS</a>
+              <a href="https://nodejs.org/en/" target="_blank" title="NodeJS"><i class="fab fa-node-js"></i>NodeJS</a>
+              <a href="https://www.npmjs.com/" target="_blank" title="NPM"><i class="fab fa-npm"></i>NPM</a>
+            </p>
+
+            <p>
+              <a href="https://www.w3schools.com/css/" target="_blank" title="CSS"><i class="fab fa-css3-alt"></i> css</a>
+              <a href="https://sass-lang.com/" target="_blank" title="SASS"><i class="fab fa-sass"></i> Sass</a>
+              <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap</a>
+              <a href="https://www.photoshop.com/" target="_blank" title="Photoshop">
+                <img style="position: relative; top: -2px; margin-right: 0" src="data:image/png;base64,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">
+                Photoshop
+              </a>
+              <a href="https://www.adobe.com/products/xd.html" target="_blank" title="XD">
+                <img style="margin-right:4px; top: -2px; position: relative" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3X9dUuXtM2-g354tRGiKLl2fkOKBFZKZ1i4qGTvPHU6llxRu&s">XD
+              </a>
+              <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" title="Lightroom">
+                <img style="width: 25px; margin-right: 4px; top: -2px; position: relative;" src="https://cdn1.iconfinder.com/data/icons/adobe-apps-2/48/adobe_-_Glyph-04-512.png">Lightroom
+              </a>
+            </p>
+
+            <p>
+              <a href="https://atom.io/" target="_blank" title="atom">
+                <i class="fas fa-atom"></i>Atom
+              </a>
+              <a title="Laptop">
+                <i class="fas fa-laptop"></i>Mac
+              </a>
+              <a title="Coffee">
+                <i class="fas fa-mug-hot"></i>Coffee
+              </a>
+            </p>
+          </div><!-- skills-links -->
         </div><!-- skills -->
 
-        <div id="works" class="mt-5 pt-3">
+        <div id="works" class="mt-5 pt-3 pb-5">
           <h2>☕️ Works</h2>
           <p>Featured works - some of my works from office projects and freelance projects.</p>
           <!-- <hr/> -->
@@ -163,7 +146,7 @@
           </table>
         </div><!-- works -->
 
-        <div id="graphic-works" class="mt-5 pt-3">
+        <div id="graphic-works" class="mt-5 pt-3 pb-5">
           <h2>🎨 Graphic Works</h2>
           <p>
             Web design, logo, branding, vector arts, photography, etc. <br/>
@@ -171,7 +154,7 @@
           </p>
         </div><!-- graphic-works -->
 
-        <div id="contact" class="mt-5 pt-3">
+        <div id="contact" class="mt-5 pt-3 pb-5">
           <h2>🤙🏼 Say Hello</h2>
           <p>
             Let's talk!
