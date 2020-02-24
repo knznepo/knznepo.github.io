@@ -7,6 +7,13 @@
     "status": "private"
   },
   {
+    "title": "PALCON2020",
+    "type": "drupal",
+    "link": "https://palcon.org/",
+    "desc": "Event Website",
+    "status": "public"
+  },
+  {
     "title": "MPDS",
     "type": "codeigniter",
     "link": "https://paper.dropbox.com/doc/MPDS--AodUm3055qAJMBlaGrmtkvEHAQ-OjYQU3oCxugJXJyremEP3",
