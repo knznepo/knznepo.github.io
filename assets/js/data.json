@@ -37,9 +37,9 @@
   {
     "title": "SpeedDriven",
     "type": "wordpress",
-    "link": "http://speeddriven.ph/",
+    "link": "https://www.behance.net/gallery/57960211/Speeddrivenph/",
     "desc": "Car wash business - wordpress + inventory system built in codeigniter",
-    "status": "public"
+    "status": "dead"
   },
   {
     "title": "NYIMANILA",
@@ -56,7 +56,7 @@
     "status": "dead"
   },
   {
-    "title": "Nazarene",
+    "title": "Nazarene (2017-2018)",
     "type": "drupal",
     "link": "http://nazarene.org/",
     "desc": "Global church website",
