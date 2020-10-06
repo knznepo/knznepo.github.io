@@ -25,7 +25,7 @@
     "type": "codeigniter",
     "link": "https://paper.dropbox.com/doc/Unleash-2019--A7v0dkVfVSnAb7RS2xsn2WkBAQ-GN3WpPtgfxMnebHo5vbpj",
     "desc": "Conference registration website",
-    "status": "dead"
+    "status": "down"
   },
   {
     "title": "WMC-AP",
@@ -39,28 +39,28 @@
     "type": "wordpress",
     "link": "https://www.behance.net/gallery/57960211/Speeddrivenph/",
     "desc": "Car wash business - wordpress + inventory system built in codeigniter",
-    "status": "dead"
+    "status": "down"
   },
   {
     "title": "NYIMANILA",
     "type": "codeigniter",
     "link": "https://www.behance.net/gallery/48753809/NYIMANILASITE",
     "desc": "Conference registration website",
-    "status": "dead"
+    "status": "down"
   },
   {
     "title": "eMerge 2016",
     "type": "codeigniter",
     "link": "https://www.behance.net/gallery/48756787/eMerge2016-Web-Registration-Form",
     "desc": "Conference website with registration",
-    "status": "dead"
+    "status": "down"
   },
   {
     "title": "Nazarene (2017-2018)",
     "type": "drupal",
     "link": "http://nazarene.org/",
     "desc": "Global church website",
-    "status": "dead"
+    "status": "down"
   },
   {
     "title": "USA-CANADA region",
@@ -88,7 +88,7 @@
     "type": "wordpress",
     "link": "#",
     "desc": "Tokyo Manila Jazz & Arts Festival",
-    "status": "dead"
+    "status": "down"
   },
   {
     "title": "FEBC",
@@ -109,6 +109,6 @@
     "type": "wordpress",
     "link": "http://www.harris.edu.ph/",
     "desc": "School Website <small>(already redesigned)</small>",
-    "status": "dead"
+    "status": "down"
   }
 ]
