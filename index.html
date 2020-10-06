@@ -139,7 +139,7 @@
               <td width="8%"><i class="fab" v-bind:class="'fa-'+item.type"></i></td>
               <td>
                 <a v-bind:href="item.link" target="_blank">{{ item.title }}</a>
-                <small v-if="item.status == 'dead'" title="dead link">☠︎ (down)</small>
+                <small v-if="item.status == 'down'" title="dead link">☠︎ (down)</small>
                 <small v-if="item.status == 'private'" title="private">🔒(private)</small>
 
                 <p class="text-muted" v-html="item.desc"></p>
