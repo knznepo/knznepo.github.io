@@ -1,10 +1,24 @@
 [
   {
+    "title": "RickAndMorty",
+    "type": "react",
+    "link": "https://knznepo.github.io/RickAndMorty/",
+    "desc": "A simple search program using ReactJS and Graphql",
+    "status": "public"
+  },
+  {
     "title": "APResource",
     "type": "laravel",
     "link": "https://paper.dropbox.com/doc/APResource-QQJGopdO2o171fe0L6YT5",
     "desc": "File storage system",
     "status": "private"
+  },
+  {
+    "title": "NCM",
+    "type": "drupal",
+    "link": "https://ncm.org/",
+    "desc": "Nazarene Compassionate Ministry",
+    "status": "public"
   },
   {
     "title": "PALCON2020",
