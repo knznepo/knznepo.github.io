@@ -7,6 +7,13 @@
     "status": "public"
   },
   {
+    "title": "Missionary Profile",
+    "type": "vue",
+    "link": "http://missionary.nazarene.org/",
+    "desc": "Profile search with filter.",
+    "status": "public"
+  },
+  {
     "title": "APResource",
     "type": "laravel",
     "link": "https://paper.dropbox.com/doc/APResource-QQJGopdO2o171fe0L6YT5",
