@@ -8,7 +8,7 @@
   },
   {
     "title": "Missionary Profile",
-    "type": "vue",
+    "type": "vuejs",
     "link": "http://missionary.nazarene.org/",
     "desc": "Profile search with filter.",
     "status": "public"
