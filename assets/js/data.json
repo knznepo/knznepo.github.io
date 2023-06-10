@@ -1,9 +1,16 @@
 [
   {
+    "title": "Asia-Pacific Nazarene Theological Seminary",
+    "type": "wordpress",
+    "link": "https://apnts.edu.ph",
+    "desc": "Wordpress + Divi, website redesign",
+    "status": "public"
+  },
+  {
     "title": "Jesus Film Harvest Partners",
     "type": "wordpress",
     "link": "https://jfhp.org",
-    "desc": "Built the website using Elementor",
+    "desc": "Wordpress + Elementor, website redesign",
     "status": "public"
   },
   {
@@ -54,6 +61,13 @@
     "link": "https://paper.dropbox.com/doc/Unleash-2019--A7v0dkVfVSnAb7RS2xsn2WkBAQ-GN3WpPtgfxMnebHo5vbpj",
     "desc": "Conference registration website",
     "status": "down"
+  },
+  {
+    "title": "Jesus Film Harvest Partners (old)",
+    "type": "drupal",
+    "link": "https://legacy.jfhp.org",
+    "desc": "JESUS Film Harvest Partners (JFHP) is a Kingdom-building ministry devoted to world evangelism through the JESUS film and other tools.",
+    "status": "public"
   },
   {
     "title": "WMC-AP",
