@@ -119,6 +119,12 @@ p, table td {
   width: 18px;
 }
 
+// icons
+#skills .bigcommerce {
+  display: inline-block;
+  width: 25px;
+  height: 25px;}
+
 #works-table {
   max-height: 400px;
   display: block;
