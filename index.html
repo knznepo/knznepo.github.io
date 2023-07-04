@@ -64,19 +64,19 @@
       </nav>
     </header>
 
-    <section id="main-container" class="mb-5 pb-3">
+    <section id="main-container" class="mb-3">
       <div class="container container-slim mt-5 pt-3">
 
-        <div id="about" class="pt-5 pb-5">
+        <div id="about" class="pb-5">
           <img src="https://knznepo.github.io/old/public/css/images/me.png">
 
           <h2><strong>👋🏼 Hi I'm Kenaz</strong></h2>
           <p>Creative designer, detailed-oriented developer. Converting coffee into websites since 2011, based in the Philippines 🇵🇭. Fluent in Lorem Ipsum.</p>
         </div><!-- about -->
 
-        <div id="skills" class="mt-5 pt-5 pb-5">
-          <h2>Tools</h2>
-          <p>Here are the tools I use on my work.</p>
+        <div id="skills" class="pb-5">
+          <h2>🧰 Tools</h2>
+          <p class="description">Here are the tools I use on my work.</p>
           <hr/>
 
           <div id="skills-links">
@@ -86,7 +86,7 @@
               <a href="https://wordpress.org/" target="_blank" title="WordPress"><i class="fab fa-wordpress"></i>WordPress</a>
               <a href="https://www.drupal.org/" target="_blank" title="Drupal"><i class="fab fa-drupal"></i>Drupal</a>
               <a href="https://www.shopify.com/" target="_blank" title="Shopify"><i class="fa-brands fa-shopify"></i>Shopify</i></a>
-              <a href="https://www.bigcommerce.com/" target="_blank" title="BigCommerce"><i class="bigcommerce"></i>BigCommerce</a>
+              <a href="https://www.bigcommerce.com/" target="_blank" title="BigCommerce"><i class="custom-icon icon-bigcommerce"></i>BigCommerce</a>
             </p>
 
             <p>
@@ -100,19 +100,14 @@
             </p>
 
             <p>
-              <a href="https://www.figma.com/" target="_blank" title="Figma">
-                <i class="fa-brands fa-figma"></i> Figma
-              </a>
-              <a href="https://elementor.com/" target="_blank" title="Elementor">
-                <i class="fa-brands fa-elementor"></i> Elementor
-              </a>
-              
-              <a href="https://www.photoshop.com/" target="_blank" title="Photoshop">
-                <img style="position: relative; top: -2px; margin-right: 0" src="data:image/png;base64,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">
-                Photoshop
+              <a href="https://www.figma.com/" target="_blank" title="Figma"><i class="fa-brands fa-figma"></i> Figma</a>
+              <a href="https://elementor.com/" target="_blank" title="Elementor"><i class="fa-brands fa-elementor"></i> Elementor</a>
+              <a href="" target="_blank" title="Divi"><img style="width: 19px; margin-right: 4px; top: -2px; position: relative;" src="data:image/webp;base64,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
+"> Divi</a>
+              <a href="https://www.photoshop.com/" target="_blank" title="Photoshop"><img style="position: relative; top: -2px; margin-right: 0" src="data:image/png;base64,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"> Photoshop
               </a>
               <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" title="Lightroom">
-                <img style="width: 25px; margin-right: 4px; top: -2px; position: relative;" src="https://cdn1.iconfinder.com/data/icons/adobe-apps-2/48/adobe_-_Glyph-04-512.png">Lightroom
+                <img style="width: 19px; margin-right: 4px; top: -2px; position: relative;" src="https://cdn1.iconfinder.com/data/icons/adobe-apps-2/48/adobe_-_Glyph-04-512.png">Lightroom
               </a>
             </p>
 
@@ -129,9 +124,9 @@
           </div><!-- skills-links -->
         </div><!-- skills -->
 
-        <div id="works" class="mt-5 pt-3 pb-5">
+        <div id="works" class="pb-5">
           <h2>☕️ Works</h2>
-          <p>Featured works - some of my works from office projects and freelance projects.</p>
+          <p class="description">This section showcase some of my works from office and freelance projects.</p>
           <!-- <hr/> -->
           <table id="works-table" class="table table-hover">
             <tr v-for="item in works">
@@ -141,23 +136,23 @@
                 <small v-if="item.status == 'down'" title="dead link">☠︎ (down)</small>
                 <small v-if="item.status == 'private'" title="private">🔒(private)</small>
 
-                <p class="text-muted" v-html="item.desc"></p>
+                <p class="text-muted description" v-html="item.desc"></p>
               </td>
             </tr>
           </table>
         </div><!-- works -->
 
-        <div id="graphic-works" class="mt-5 pt-3 pb-5">
+        <div id="graphic-works" class="pb-5">
           <h2>🎨 Graphic Works</h2>
-          <p>
+          <p class="description">
             Web design, logo, branding, vector arts, photography, etc. <br/>
             visit &#8594; <a href="https://www.behance.net/knznepo" target="_blank">behance.net/knznepo</a>
           </p>
         </div><!-- graphic-works -->
 
-        <div id="contact" class="mt-5 pt-3 pb-5">
+        <div id="contact" class="pb-5">
           <h2>🤙🏼 Say Hello</h2>
-          <p>
+          <p class="description">
             Let's talk!
             <a href="mailto: kenaznepomuceno@gmail.com">kenaznepomuceno@gmail.com</a>
           </p>
@@ -170,7 +165,7 @@
 
     <footer id="main-footer" class="mb-5 pb-3">
       <div class="container container-slim">
-        <p class="text-center">&copy; 2019. All rights reserved. <br/>
+        <p class="text-center p-footer">&copy; 2019. All rights reserved. <br/>
           <a href="https://knznepo.github.io/old/index.html">2017-2018</a>
         </p>
       </div>

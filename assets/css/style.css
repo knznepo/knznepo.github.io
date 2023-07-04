@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Albert Sans', sans-serif;
+}
+
 body p {
   font-size: 19px;
   line-height: 30px;
+}
+
+.navbar-brand span, h2 {
+  color: #3d4f5f;
 }
 
 #main-nav {
@@ -92,7 +102,8 @@ p, table td {
 }
 
 #skills-links p {
-  margin: 30px auto;
+  margin: 18px auto;
+  font-size: 18px;
 }
 
 #skills a {
@@ -100,9 +111,7 @@ p, table td {
   color: #6f6f6f;
 }
 
-#skills a:hover,
-#skills-links a:hover > i,
-#skills-links a:hover > img {
+#skills a:hover {
   text-decoration: none;
   color: #f18806;
 }
@@ -119,16 +128,14 @@ p, table td {
   width: 18px;
 }
 
-// icons
-#skills .bigcommerce {
-  display: inline-block;
-  width: 25px;
-  height: 25px;}
-
 #works-table {
   max-height: 400px;
   display: block;
   overflow-y: scroll;
+}
+
+#works-table .description {
+  font-size: 14px;
 }
 
 #works i.fa-codeigniter {
@@ -184,4 +191,26 @@ p, table td {
     float: left;
     width: 50%;
   }
+}
+
+.custom-icon {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-color: #6f6f6f;
+  transition: .3s all ease-in-out;
+}
+
+.icon-bigcommerce {
+  -webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Laag_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2489.2 2487.6' style='enable-background:new 0 0 2489.2 2487.6;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2334313F;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M1311.5,1416.2h314c89.3,0,145.8-49.1,145.8-128c0-74.4-56.5-128-145.8-128h-314c-10.4,0-19.3,8.9-19.3,17.9 v220.2C1293.6,1408.7,1301,1416.2,1311.5,1416.2z M1311.5,1923.6h324.4c99.7,0,159.2-50.6,159.2-139.9 c0-77.4-56.5-139.9-159.2-139.9h-324.4c-10.4,0-19.3,8.9-19.3,17.9v242.6C1293.6,1916.2,1301,1923.6,1311.5,1923.6z'/%3E%3Cpath class='st0' d='M2460.3,5.5l-928.6,925.6h151.8c236.6,0,376.5,148.8,376.5,311c0,128-86.3,221.7-178.6,263.4 c-14.9,6-14.9,26.8,1.5,32.7c107.1,41.7,183,153.3,183,284.2c0,184.5-123.5,331.8-363.1,331.8h-657.7c-10.4,0-19.3-8.9-19.3-17.9 v-700.9L6.4,2450.4c-13.4,13.4-4.5,37.2,14.9,37.2h2450.9c8.9,0,16.4-7.4,16.4-16.4V18.9C2493,2.5,2472.2-6.4,2460.3,5.5z'/%3E%3C/g%3E%3C/svg%3E%0A");                 
+  mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Laag_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2489.2 2487.6' style='enable-background:new 0 0 2489.2 2487.6;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2334313F;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M1311.5,1416.2h314c89.3,0,145.8-49.1,145.8-128c0-74.4-56.5-128-145.8-128h-314c-10.4,0-19.3,8.9-19.3,17.9 v220.2C1293.6,1408.7,1301,1416.2,1311.5,1416.2z M1311.5,1923.6h324.4c99.7,0,159.2-50.6,159.2-139.9 c0-77.4-56.5-139.9-159.2-139.9h-324.4c-10.4,0-19.3,8.9-19.3,17.9v242.6C1293.6,1916.2,1301,1923.6,1311.5,1923.6z'/%3E%3Cpath class='st0' d='M2460.3,5.5l-928.6,925.6h151.8c236.6,0,376.5,148.8,376.5,311c0,128-86.3,221.7-178.6,263.4 c-14.9,6-14.9,26.8,1.5,32.7c107.1,41.7,183,153.3,183,284.2c0,184.5-123.5,331.8-363.1,331.8h-657.7c-10.4,0-19.3-8.9-19.3-17.9 v-700.9L6.4,2450.4c-13.4,13.4-4.5,37.2,14.9,37.2h2450.9c8.9,0,16.4-7.4,16.4-16.4V18.9C2493,2.5,2472.2-6.4,2460.3,5.5z'/%3E%3C/g%3E%3C/svg%3E%0A");                 
+}
+
+li a:hover .custom-icon {
+  background-color: #f18806;
+}
+
+.description, .p-footer {
+  font-size: 16px;
+  color: #9ba1af;
 }
