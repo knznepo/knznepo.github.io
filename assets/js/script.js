@@ -13,3 +13,5 @@ var app = new Vue({
       })
   }
 })
+
+document.querySelectorAll('.js-date')[0].innerHTML= new Date().getFullYear();
