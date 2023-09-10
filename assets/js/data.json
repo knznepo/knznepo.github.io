@@ -1,31 +1,43 @@
 [
   {
+    "title": "Premium Wine Exchange",
+    "type": "wordpress",
+    "link": "https://pwxchange.com.ph/",
+    "desc": "Wordpress + Elementor.",
+    "status": "public",
+    "year": "2023"
+  },
+  {
     "title": "Asia-Pacific Nazarene Theological Seminary",
     "type": "wordpress",
     "link": "https://apnts.edu.ph",
     "desc": "Wordpress + Divi, website redesign",
-    "status": "public"
+    "status": "public",
+    "year": "2023"
   },
   {
     "title": "Jesus Film Harvest Partners",
     "type": "wordpress",
     "link": "https://jfhp.org",
     "desc": "Wordpress + Elementor, website redesign",
-    "status": "public"
+    "status": "public",
+    "year": "2023"
   },
   {
     "title": "RickAndMorty",
     "type": "react",
     "link": "https://knznepo.github.io/RickAndMorty/",
     "desc": "A simple search program using ReactJS and Graphql",
-    "status": "public"
+    "status": "public",
+    "year": "2021"
   },
   {
     "title": "Missionary Profile",
     "type": "vuejs",
     "link": "http://missionary.nazarene.org/",
     "desc": "Profile search with filter.",
-    "status": "public"
+    "status": "public",
+    "year": "2020"
   },
   {
     "title": "APResource",
@@ -39,14 +51,16 @@
     "type": "drupal",
     "link": "https://ncm.org/",
     "desc": "Nazarene Compassionate Ministry",
-    "status": "public"
+    "status": "public",
+    "year": "2018"
   },
   {
     "title": "PALCON2020",
     "type": "drupal",
     "link": "https://palcon.org/",
     "desc": "Event Website",
-    "status": "public"
+    "status": "public",
+    "year": "2020"
   },
   {
     "title": "MPDS",
@@ -60,7 +74,8 @@
     "type": "codeigniter",
     "link": "https://paper.dropbox.com/doc/Unleash-2019--A7v0dkVfVSnAb7RS2xsn2WkBAQ-GN3WpPtgfxMnebHo5vbpj",
     "desc": "Conference registration website",
-    "status": "down"
+    "status": "down",
+    "year": "2019"
   },
   {
     "title": "Jesus Film Harvest Partners (old)",
@@ -95,7 +110,8 @@
     "type": "codeigniter",
     "link": "https://www.behance.net/gallery/48756787/eMerge2016-Web-Registration-Form",
     "desc": "Conference website with registration",
-    "status": "down"
+    "status": "down",
+    "year": "2016"
   },
   {
     "title": "Nazarene (2017-2018)",
@@ -130,7 +146,8 @@
     "type": "wordpress",
     "link": "#",
     "desc": "Tokyo Manila Jazz & Arts Festival",
-    "status": "down"
+    "status": "down",
+    "year": "2014"
   },
   {
     "title": "FEBC",
@@ -144,13 +161,15 @@
     "type": "wordpress",
     "link": "http://mxmessiahfairgrounds.com/",
     "desc": "Motocross Events website <small>(since 2011)</small>",
-    "status": "public"
+    "status": "public",
+    "year": "2012"
   },
   {
     "title": "Harris Memorial College",
     "type": "wordpress",
     "link": "http://www.harris.edu.ph/",
     "desc": "School Website <small>(already redesigned)</small>",
-    "status": "down"
+    "status": "down",
+    "year": "2011"
   }
 ]
