@@ -3,7 +3,7 @@
     "title": "Premium Wine Exchange",
     "type": "wordpress",
     "link": "https://pwxchange.com.ph/",
-    "desc": "Wordpress + Elementor.",
+    "desc": "Wordpress + Elementor",
     "status": "public",
     "year": "2023"
   },
@@ -27,7 +27,7 @@
     "title": "RickAndMorty",
     "type": "react",
     "link": "https://knznepo.github.io/RickAndMorty/",
-    "desc": "A simple search program using ReactJS and Graphql",
+    "desc": "I created this personal project to learn how to use React.JS and GraphQL. It is a simple search program.",
     "status": "public",
     "year": "2021"
   },
@@ -35,7 +35,15 @@
     "title": "Missionary Profile",
     "type": "vuejs",
     "link": "http://missionary.nazarene.org/",
-    "desc": "Profile search with filter.",
+    "desc": "Profile search with filter. The front-end functions are implemented using Vue.js, while the back-end is based on Laravel",
+    "status": "down",
+    "year": "2020"
+  },
+  {
+    "title": "PALCON2020",
+    "type": "drupal",
+    "link": "https://palcon.org/",
+    "desc": "A website for events that showcases a gallery of previous events, the event schedule, information about the speakers, and registration.",
     "status": "public",
     "year": "2020"
   },
@@ -43,31 +51,9 @@
     "title": "APResource",
     "type": "laravel",
     "link": "https://paper.dropbox.com/doc/APResource-QQJGopdO2o171fe0L6YT5",
-    "desc": "File storage system",
-    "status": "private"
-  },
-  {
-    "title": "NCM",
-    "type": "drupal",
-    "link": "https://ncm.org/",
-    "desc": "Nazarene Compassionate Ministry",
-    "status": "public",
-    "year": "2018"
-  },
-  {
-    "title": "PALCON2020",
-    "type": "drupal",
-    "link": "https://palcon.org/",
-    "desc": "Event Website",
-    "status": "public",
-    "year": "2020"
-  },
-  {
-    "title": "MPDS",
-    "type": "codeigniter",
-    "link": "https://paper.dropbox.com/doc/MPDS--AodUm3055qAJMBlaGrmtkvEHAQ-OjYQU3oCxugJXJyremEP3",
-    "desc": "Ministry performance development system",
-    "status": "private"
+    "desc": "This is a private file storage system with various user roles and functionalities that allow users to manage and organize files and folders.",
+    "status": "private",
+    "year": "2019"
   },
   {
     "title": "Unleash2019",
@@ -78,32 +64,60 @@
     "year": "2019"
   },
   {
+    "title": "USA-CANADA region",
+    "type": "drupal",
+    "link": "http://beta.usacanadaregion.org/",
+    "desc": "Nazarene usa-canada region website",
+    "status": "public",
+    "year": "2019"
+  },
+  {
+    "title": "NCM",
+    "type": "drupal",
+    "link": "https://ncm.org/",
+    "desc": "Nazarene Compassionate Ministry",
+    "status": "public",
+    "year": "2018"
+  },
+  {
     "title": "Jesus Film Harvest Partners (old)",
     "type": "drupal",
     "link": "https://legacy.jfhp.org",
     "desc": "Drupal website. <a href='https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design' target='_blank'>PSD</a> to Drupal theme",
-    "status": "public"
+    "status": "public",
+    "year": "2018"
   },
   {
     "title": "WMC-AP",
     "type": "wordpress",
     "link": "http://wmc-ap.org/",
     "desc": "Media company portfolio <small>( previous employer )</small>",
-    "status": "public"
+    "status": "public",
+    "year": "2017"
   },
   {
     "title": "SpeedDriven",
     "type": "wordpress",
     "link": "https://www.behance.net/gallery/57960211/Speeddrivenph/",
     "desc": "Car wash business - wordpress + inventory system built in codeigniter",
-    "status": "down"
+    "status": "down",
+    "year": "2017"
   },
   {
     "title": "NYIMANILA",
     "type": "codeigniter",
     "link": "https://www.behance.net/gallery/48753809/NYIMANILASITE",
     "desc": "Conference registration website",
-    "status": "down"
+    "status": "down",
+    "year": "2017"
+  },
+  {
+    "title": "Nazarene (2017-2018)",
+    "type": "drupal",
+    "link": "http://nazarene.org/",
+    "desc": "Global church website",
+    "status": "down",
+    "year": "2017"
   },
   {
     "title": "eMerge 2016",
@@ -114,32 +128,28 @@
     "year": "2016"
   },
   {
-    "title": "Nazarene (2017-2018)",
-    "type": "drupal",
-    "link": "http://nazarene.org/",
-    "desc": "Global church website",
-    "status": "down"
-  },
-  {
-    "title": "USA-CANADA region",
-    "type": "drupal",
-    "link": "http://beta.usacanadaregion.org/",
-    "desc": "Nazarene usa-canada region website",
-    "status": "public"
+    "title": "MPDS",
+    "type": "codeigniter",
+    "link": "https://paper.dropbox.com/doc/MPDS--AodUm3055qAJMBlaGrmtkvEHAQ-OjYQU3oCxugJXJyremEP3",
+    "desc": "Ministry performance development system",
+    "status": "private",
+    "year": "2016"
   },
   {
     "title": "Vision441",
     "type": "wordpress",
     "link": "http://vision441.org/",
     "desc": "Devotional material resources",
-    "status": "public"
+    "status": "public",
+    "year": "2017"
   },
   {
     "title": "mgroup",
     "type": "wordpress",
     "link": "http://mgroup.com.ph/",
-    "desc": "Fine dining",
-    "public": "status"
+    "desc": "Fine dining restaurant website",
+    "public": "status",
+    "year": "2017"
   },
   {
     "title": "TMJAF 2014",
@@ -154,15 +164,16 @@
     "type": "wordpress",
     "link": "http://febc.ph/",
     "desc": "Broadcasting company in the Philippines",
-    "status": "public"
+    "status": "public",
+    "year": "2014"
   },
   {
     "title": "MX Messiah Fairgrounds",
     "type": "wordpress",
     "link": "http://mxmessiahfairgrounds.com/",
-    "desc": "Motocross Events website <small>(since 2011)</small>",
+    "desc": "Motocross Events website",
     "status": "public",
-    "year": "2012"
+    "year": "2011"
   },
   {
     "title": "Harris Memorial College",
