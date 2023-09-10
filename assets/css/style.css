@@ -46,6 +46,10 @@ body p {
   margin: 0 auto;
 }
 
+#about h2 {
+  font-size: 3rem;
+}
+
 #about img {
   height: 280px;
   margin: 0 auto;
@@ -136,6 +140,8 @@ p, table td {
 
 #works-table .description {
   font-size: 14px;
+  line-height: 21px;
+  margin-top: 7px;
 }
 
 #works i.fa-codeigniter {
