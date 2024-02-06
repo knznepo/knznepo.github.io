@@ -1,5 +1,13 @@
 [
   {
+    "title": "ShoutOut",
+    "type": "react",
+    "link": "https://shoutout-io.web.app/",
+    "desc": "A personal project built with Next.js and Firebase allows you to create a shoutout and display it on a map based on your current location.",
+    "status": "public",
+    "year": "2024"
+  },
+  {
     "title": "Premium Wine Exchange",
     "type": "wordpress",
     "link": "https://pwxchange.com.ph/",
