@@ -35,12 +35,12 @@
     "title": "RickAndMorty",
     "type": "react",
     "link": "https://knznepo.github.io/RickAndMorty/",
-    "desc": "I created this personal project to learn how to use React.JS and GraphQL. It is a simple search program.",
+    "desc": "A personal project built using ReactJS and GraphQL. It is a simple search program.",
     "status": "public",
     "year": "2021"
   },
   {
-    "title": "Missionary Profile",
+    "title": "Missionary Profile (re-designed)",
     "type": "vuejs",
     "link": "http://missionary.nazarene.org/",
     "desc": "Profile search with filter. The front-end functions are implemented using Vue.js, while the back-end is based on Laravel",
@@ -48,11 +48,11 @@
     "year": "2020"
   },
   {
-    "title": "PALCON2020",
+    "title": "PALCON2020 (re-designed)",
     "type": "drupal",
     "link": "https://palcon.org/",
     "desc": "A website for events that showcases a gallery of previous events, the event schedule, information about the speakers, and registration.",
-    "status": "public",
+    "status": "down",
     "year": "2020"
   },
   {
@@ -90,9 +90,9 @@
   {
     "title": "Jesus Film Harvest Partners (old)",
     "type": "drupal",
-    "link": "https://legacy.jfhp.org",
+    "link": "https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design",
     "desc": "Drupal website. <a href='https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design' target='_blank'>PSD</a> to Drupal theme",
-    "status": "public",
+    "status": "down",
     "year": "2018"
   },
   {
@@ -152,7 +152,7 @@
     "year": "2017"
   },
   {
-    "title": "mgroup",
+    "title": "Mgroup",
     "type": "wordpress",
     "link": "http://mgroup.com.ph/",
     "desc": "Fine dining restaurant website",
@@ -184,10 +184,10 @@
     "year": "2011"
   },
   {
-    "title": "Harris Memorial College",
+    "title": "Harris Memorial College (re-designed)",
     "type": "wordpress",
     "link": "http://www.harris.edu.ph/",
-    "desc": "School Website <small>(already redesigned)</small>",
+    "desc": "School Website",
     "status": "down",
     "year": "2011"
   }
