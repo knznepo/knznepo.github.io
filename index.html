@@ -132,6 +132,7 @@
               <td width="8%"><i class="fab" v-bind:class="'fa-'+item.type"></i></td>
               <td>
                 <a v-bind:href="item.link" target="_blank" v-bind:title="item.title">{{ item.title }}</a>
+                <small v-if="item.status == 're-designed'" title="re-designed">🫥 (re-designed)</small>
                 <small v-if="item.status == 'down'" title="dead link">😵 (down)</small>
                 <small v-if="item.status == 'private'" title="private">🔒(private)</small>
 

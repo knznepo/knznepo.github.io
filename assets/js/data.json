@@ -40,19 +40,19 @@
     "year": "2021"
   },
   {
-    "title": "Missionary Profile (re-designed)",
+    "title": "Missionary Profile",
     "type": "vuejs",
     "link": "http://missionary.nazarene.org/",
     "desc": "Profile search with filter. The front-end functions are implemented using Vue.js, while the back-end is based on Laravel",
-    "status": "down",
+    "status": "re-designed",
     "year": "2020"
   },
   {
-    "title": "PALCON2020 (re-designed)",
+    "title": "PALCON2020",
     "type": "drupal",
     "link": "https://palcon.org/",
     "desc": "A website for events that showcases a gallery of previous events, the event schedule, information about the speakers, and registration.",
-    "status": "down",
+    "status": "re-designed",
     "year": "2020"
   },
   {
@@ -184,11 +184,11 @@
     "year": "2011"
   },
   {
-    "title": "Harris Memorial College (re-designed)",
+    "title": "Harris Memorial College",
     "type": "wordpress",
     "link": "http://www.harris.edu.ph/",
     "desc": "School Website",
-    "status": "down",
+    "status": "re-designed",
     "year": "2011"
   }
 ]
