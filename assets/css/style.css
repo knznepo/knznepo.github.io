@@ -193,6 +193,10 @@ p, table td {
   }
 }
 
+.status-icon {
+  font-size: 15px;
+}
+
 .custom-icon {
   display: inline-block;
   height: 16px;

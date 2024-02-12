@@ -132,9 +132,9 @@
               <td width="8%"><i class="fab" v-bind:class="'fa-'+item.type"></i></td>
               <td>
                 <a v-bind:href="item.link" target="_blank" v-bind:title="item.title">{{ item.title }}</a>
-                <small v-if="item.status == 're-designed'" title="re-designed">🫥 (re-designed)</small>
-                <small v-if="item.status == 'down'" title="dead link">😵 (down)</small>
-                <small v-if="item.status == 'private'" title="private">🔒(private)</small>
+                <small v-if="item.status == 're-designed'" title="re-designed"><span class="status-icon">🫥</span> (re-designed)</small>
+                <small v-if="item.status == 'down'" title="dead link"><span class="status-icon">😵</span> (down)</small>
+                <small v-if="item.status == 'private'" title="private"><span class="status-icon">🔒</span> (private)</small>
 
                 <p class="text-muted description">
                   <span v-html="item.desc"></span> <small v-if="item.year">({{ item.year }})</small>
