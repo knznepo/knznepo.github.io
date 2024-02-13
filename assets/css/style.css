@@ -4,6 +4,10 @@
   font-family: 'Albert Sans', sans-serif;
 }
 
+a {
+  color: #297dd7;
+}
+
 body p {
   font-size: 19px;
   line-height: 30px;
@@ -55,6 +59,10 @@ body p {
   margin: 0 auto;
   display: block;
   margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.45rem;
 }
 
 #social-links i {
@@ -111,7 +119,7 @@ p, table td {
 
 #skills a:hover {
   text-decoration: none;
-  color: #0056b3;
+  background: #f5f7f9;
 }
 
 #skills i {
@@ -130,10 +138,11 @@ p, table td {
   max-height: 400px;
   display: block;
   overflow-y: scroll;
+  background-color: #fbfbfb;
 }
 
 #works-table .description {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 21px;
   margin-top: 7px;
 }
@@ -149,6 +158,27 @@ p, table td {
 
 #works td {
   vertical-align: middle;
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#graphic-works .description a,
+#contact .description a {
+  text-decoration: underline;
+}
+
+#skills-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and ( max-width: 981px ) {
+  #skills-links {
+    grid-template-columns: 1fr 1fr;
+  } 
 }
 
 @media only screen and ( max-width: 720px ) {
@@ -185,12 +215,6 @@ p, table td {
   .container-slim {
     width: inherit;
   }
-
-  #skills-links a {
-    display: block;
-    float: left;
-    width: 50%;
-  }
 }
 
 .status-icon {
@@ -215,6 +239,6 @@ li a:hover .custom-icon {
 }
 
 .description, .p-footer {
-  font-size: 16px;
-  color: #3e4d5d;
+  font-size: 18px;
+  color: #65778b;
 }

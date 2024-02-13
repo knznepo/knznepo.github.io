@@ -17,7 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" defer>
-    <link rel="stylesheet" href="https://knznepo.github.io/assets/css/style.css" defer>
+    <link rel="stylesheet" href="/assets/css/style.css" defer>
     <script src="https://kit.fontawesome.com/56bb0df094.js" crossorigin="anonymous" defer></script>
 
     <!-- meta -->
@@ -74,22 +74,19 @@
           <p>Creative designer, detailed-oriented developer. Converting coffee into websites since 2011, based in the Philippines 🇵🇭. Fluent in Lorem Ipsum.</p>
         </div><!-- about -->
 
-        <div id="skills" class="pb-5">
+        <div id="skills" class="pb-5 pt-3">
           <h2>🧰 Tech Stack</h2>
           <p class="description">Here are the tech stack & tools I use.</p>
           <hr/>
 
           <div id="skills-links">
-            <p>
               <a href="https://laravel.com/" target="_blank" title="Laravel"><i class="fa-brands fa-laravel"></i>Laravel</a>
               <a href="https://codeigniter.com/" target="_blank" title="Codeigniter"><i class="fa-codeigniter"></i>Codeigniter</a>
               <a href="https://wordpress.org/" target="_blank" title="WordPress"><i class="fab fa-wordpress"></i>WordPress</a>
               <a href="https://www.drupal.org/" target="_blank" title="Drupal"><i class="fab fa-drupal"></i>Drupal</a>
               <a href="https://www.shopify.com/" target="_blank" title="Shopify"><i class="fa-brands fa-shopify"></i>Shopify</i></a>
               <a href="https://www.bigcommerce.com/" target="_blank" title="BigCommerce"><i class="custom-icon icon-bigcommerce"></i>BigCommerce</a>
-            </p>
-
-            <p>
+            
               <a href="https://reactjs.org/" target="_blank" title="ReactJS"><i class="fab fa-react"></i>ReactJS</a>
               <a href="https://vuejs.org/" target="_blank" title="VueJS"><i class="fab fa-vuejs"></i>VueJS</a>
               <a href="https://nodejs.org/en/" target="_blank" title="NodeJS"><i class="fab fa-node-js"></i>NodeJS</a>
@@ -97,9 +94,7 @@
               <a href="https://www.w3schools.com/css/" target="_blank" title="CSS"><i class="fab fa-css3-alt"></i> CSS</a>
               <a href="https://sass-lang.com/" target="_blank" title="SASS"><i class="fab fa-sass"></i> Sass</a>
               <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap</a>
-            </p>
-
-            <p>
+            
               <a href="https://www.figma.com/" target="_blank" title="Figma"><i class="fa-brands fa-figma"></i> Figma</a>
               <a href="https://elementor.com/" target="_blank" title="Elementor"><i class="fa-brands fa-elementor"></i> Elementor</a>
               <a href="" target="_blank" title="Divi"><img style="width: 19px; margin-right: 4px; top: -2px; position: relative;" src="https://knznepo.github.io/assets/images/divi.webp" height="19" width="19" alt="Divi"> Divi</a>
@@ -108,22 +103,19 @@
               <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" title="Lightroom">
                 <img style="width: 19px; margin-right: 4px; top: -2px; position: relative;" src="https://knznepo.github.io/assets/images/lr.webp" height="19" width="19" alt="Lightroom">Lightroom
               </a>
-            </p>
-
-            <p>
+          
               <a title="Laptop" href="https://www.apple.com/">
                 <i class="fas fa-laptop"></i>Mac
               </a>
               <a title="Coffee" href="https://www.facebook.com/kapehantaytay">
                 <i class="fas fa-mug-hot"></i>Coffee
               </a>
-            </p>
 
             <div class="clearfix"></div>
           </div><!-- skills-links -->
         </div><!-- skills -->
 
-        <div id="works" class="pb-5">
+        <div id="works" class="pb-5 pt-3">
           <h2>☕️ Works</h2>
           <p class="description">This section showcase some of my works from office and freelance projects.</p>
           <!-- <hr/> -->
@@ -131,7 +123,7 @@
             <tr v-for="item in works">
               <td width="8%"><i class="fab" v-bind:class="'fa-'+item.type"></i></td>
               <td>
-                <a v-bind:href="item.link" target="_blank" v-bind:title="item.title">{{ item.title }}</a>
+                <a v-bind:href="item.link" target="_blank" v-bind:title="item.title" class="project-title">{{ item.title }}</a>
                 <small v-if="item.status == 'redesigned'" title="re-designed"><span class="status-icon">🫥</span> (redesigned)</small>
                 <small v-if="item.status == 'down'" title="dead link"><span class="status-icon">😵</span> (down)</small>
                 <small v-if="item.status == 'private'" title="private"><span class="status-icon">🔒</span> (private)</small>
@@ -144,7 +136,7 @@
           </table>
         </div><!-- works -->
 
-        <div id="graphic-works" class="pb-5">
+        <div id="graphic-works" class="pb-2 pt-3">
           <h2>🎨 Graphic Works</h2>
           <p class="description">
             Web design, logo, branding, vector arts, photography, etc. <br/>
@@ -152,7 +144,9 @@
           </p>
         </div><!-- graphic-works -->
 
-        <div id="contact" class="pb-5">
+        <hr/>
+
+        <div id="contact" class="pb-5 pt-3">
           <h2>🤙🏼 Say Hello</h2>
           <p class="description">
             Let's talk!
