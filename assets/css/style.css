@@ -115,6 +115,7 @@ p, table td {
 #skills a {
   padding: 10px;
   color: #6f6f6f;
+  transition: all .4s ease-in-out;
 }
 
 #skills a:hover {
