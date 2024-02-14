@@ -148,6 +148,10 @@ p, table td {
   margin-top: 7px;
 }
 
+#works-table tr {
+  transition: all .4s ease-in-out;
+}
+
 #works i.fa-codeigniter {
   width: 33px;
   height: 37px;
