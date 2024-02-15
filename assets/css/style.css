@@ -1,25 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
-  font-family: 'Albert Sans', sans-serif;
+  font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  padding: 0;
+  margin: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
   color: #195894;
+  text-decoration: none;
 }
 
 body p {
   font-size: 19px;
   line-height: 30px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+p, table td {
+  color: #595959;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  display: table-cell;
+}
+
+.table-hover tbody tr:hover {
+  color: #212529;
+  background-color: rgba(0,0,0,.075);
+}
+
+/* Layout */
+.container {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pt-3 { padding-top: 1rem; }
+.pb-5 { padding-bottom: 3rem; }
+.mt-5 { margin-top: 3rem; }
+.mb-3 { margin-bottom: 1rem; }
+
+.navbar-brand {
+  text-decoration: none;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  font-size: 20px;
+}
+
+.navbar-brand .text-logo {
+  font-size: 1.3em;
+  margin-right: 8px;
 }
 
 .navbar-brand span, h2 {
   color: #3d4f5f;
 }
 
+.navbar-brand strong {
+  display: flex;
+  align-items: center;
+}
+
 #main-nav {
   background: #fff !important;
   border-bottom: 1px solid #eee;
+  padding: .5rem 1rem;
+}
+
+#main-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #social-links {
@@ -78,7 +169,7 @@ body p {
   display: inline-block;
   background-size: 100%;
   background-repeat: no-repeat;
-  top: 4px;
+  /* top: 4px; */
 }
 
 .container-slim {
@@ -116,6 +207,10 @@ p, table td {
   padding: 10px;
   color: #6f6f6f;
   transition: all .4s ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
 
 #skills a:hover {
@@ -126,13 +221,19 @@ p, table td {
 #skills i {
   font-size: 1em;
   color: #6f6f6f;
-  margin-right: 3px;
+  margin-right: 10px;
 }
 
 #skills img {
   opacity: .6;
-  margin-right: 15px;
   width: 18px;
+  margin-right: 10px;
+}
+
+.i-ps,
+.i-lightroom {
+  width: 16px;
+  object-fit: contain;
 }
 
 #works-table {
@@ -146,6 +247,8 @@ p, table td {
   font-size: 15px;
   line-height: 21px;
   margin-top: 7px;
+  margin-bottom: 0;
+  color: #555759;
 }
 
 #works-table tr {
@@ -163,6 +266,12 @@ p, table td {
 
 #works td {
   vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#works td a:hover {
+  text-decoration: underline;
 }
 
 .project-title {
@@ -175,9 +284,22 @@ p, table td {
   text-decoration: underline;
 }
 
+.description {
+  margin-top: 0;
+}
+
 #skills-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 1rem;
 }
 
 @media only screen and ( max-width: 981px ) {
@@ -246,4 +368,8 @@ li a:hover .custom-icon {
 .description, .p-footer {
   font-size: 18px;
   color: #65778b;
+}
+
+.p-footer {
+  text-align: center
 }
