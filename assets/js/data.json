@@ -1,5 +1,13 @@
 [
   {
+    "title": "MX Messiah Fairgrounds",
+    "type": "wordpress",
+    "link": "http://mxmessiahfairgrounds.com/",
+    "desc": "Motocross website.",
+    "status": "public",
+    "year": "2024"
+  },
+  {
     "title": "ShoutOut",
     "type": "react",
     "link": "https://shoutout-io.web.app/",
@@ -176,9 +184,9 @@
     "year": "2014"
   },
   {
-    "title": "MX Messiah Fairgrounds",
+    "title": "MX Messiah Fairgrounds (old)",
     "type": "wordpress",
-    "link": "http://mxmessiahfairgrounds.com/",
+    "link": "http://legacy.mxmessiahfairgrounds.com/",
     "desc": "Motocross Events website",
     "status": "public",
     "year": "2011"
