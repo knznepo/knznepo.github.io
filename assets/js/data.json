@@ -3,7 +3,7 @@
     "title": "MX Messiah Fairgrounds",
     "type": "wordpress",
     "link": "http://mxmessiahfairgrounds.com/",
-    "desc": "Motocross website. Design file <a href='https://www.figma.com/file/PCOAhiOqCzlrEDwmiUrESu/MMF?type=design&node-id=0%3A1&mode=design&t=sunaF6wWmpUp146P-1' target='_blank'>here</a> (figma)",
+    "desc": "Motocross website. Design file <a href='https://www.figma.com/file/PCOAhiOqCzlrEDwmiUrESu/MMF?type=design&node-id=0%3A1&mode=design&t=sunaF6wWmpUp146P-1' target='_blank' alt='MMF Figma Design' aria-label='link to figma design file'>here</a> (figma)",
     "status": "public",
     "year": "2024"
   },
@@ -35,7 +35,7 @@
     "title": "Jesus Film Harvest Partners",
     "type": "wordpress",
     "link": "https://jfhp.org",
-    "desc": "Website redesign using <b>WordPress</b> and <b>Elementor</b>. <br/> The <a href='https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design' target='_blank'>previous website</a> is built in drupal which I also designed and developed",
+    "desc": "Website redesign using <b>WordPress</b> and <b>Elementor</b>. <br/> The <a href='https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design' target='_blank' alt='Behance' aria-label='link to mockup design''>previous website</a> is built in drupal which I also designed and developed",
     "status": "public",
     "year": "2023"
   },
@@ -99,7 +99,7 @@
     "title": "Jesus Film Harvest Partners (old)",
     "type": "drupal",
     "link": "https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design",
-    "desc": "Drupal website. <a href='https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design' target='_blank'>PSD</a> to Drupal theme",
+    "desc": "Drupal website. <a href='https://www.behance.net/gallery/92381905/JesusFilm-Mockup-Design' target='_blank' alt='mockup' aria-label='link to mockup design'>PSD</a> to Drupal theme",
     "status": "down",
     "year": "2018"
   },
