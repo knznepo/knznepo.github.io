@@ -5,11 +5,10 @@ var app = new Vue({
   },
 
   mounted() {
-    fetch('assets/js/data.json')
+    fetch('assets/js/data.min.json')
       .then(r => r.json())
       .then(json => {
         this.works = json;
-        console.log(json);
       })
   }
 })
