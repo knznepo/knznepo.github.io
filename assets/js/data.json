@@ -11,13 +11,13 @@
     "title": "MX Messiah Fairgrounds",
     "type": "wordpress",
     "link": "http://mxmessiahfairgrounds.com/",
-    "desc": "Motocross website. Design file <a href='https://www.figma.com/file/PCOAhiOqCzlrEDwmiUrESu/MMF?type=design&node-id=0%3A1&mode=design&t=sunaF6wWmpUp146P-1' target='_blank' alt='MMF Figma Design' aria-label='link to figma design file'>here</a> (figma)",
+    "desc": "Motocross website. <a href='https://www.figma.com/file/PCOAhiOqCzlrEDwmiUrESu/MMF?type=design&node-id=0%3A1&mode=design&t=sunaF6wWmpUp146P-1' target='_blank' alt='MMF Figma Design' aria-label='link to figma design file'>Design File</a>",
     "status": "public",
     "year": "2024"
   },
   {
     "title": "ShoutOut",
-    "type": "react",
+    "type": "nextjs",
     "link": "https://shoutout-io.web.app/",
     "desc": "A personal project built with <b>NextJS</b> and <b>Firebase</b> allows you to create a shoutout and display it on a map based on your current location.",
     "status": "public",
