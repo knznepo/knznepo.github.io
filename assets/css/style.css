@@ -314,6 +314,7 @@ p, table td {
 .w-list i {
   font-size: 2em;
   color: #65778b;
+  width: 34px;
 }
 
 .w-list .project-title {
@@ -335,10 +336,10 @@ p, table td {
 }
 
 .w-wrapper > div:first-child {
-  width: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 34px;
 }
 
 .w-container .status-icon,
