@@ -122,22 +122,28 @@
         <div id="works" class="pb-5 pt-3">
           <h2>☕️ Works</h2>
           <p class="description">This section showcase some of my works.</p>
-          <!-- <hr/> -->
-          <table id="works-table" class="table table-hover">
-            <tr v-for="item in works">
-              <td width="8%"><i class="fab" v-bind:class="'fa-'+item.type"></i></td>
-              <td>
-                <a v-bind:href="item.link" target="_blank" v-bind:alt="item.title" v-bind:aria-label="item.title" class="project-title">{{ item.title }}</a>
-                <small v-if="item.status == 'redesigned'" alt="re-designed"><span class="status-icon">🫥</span> (redesigned)</small>
-                <small v-if="item.status == 'down'" alt="dead link"><span class="status-icon">😵</span> (down)</small>
-                <small v-if="item.status == 'private'" alt="private"><span class="status-icon">🔒</span> (private)</small>
+          <hr/>
+          
+          <ul class="w-list">
+            <li v-for="item in works">
+              <div class="w-wrapper">
+                <div class="w-container">
+                  <i class="fab" v-bind:class="'fa-'+item.type"></i>
+                </div>
 
-                <p class="text-muted description">
-                  <span v-html="item.desc"></span> <small v-if="item.year">({{ item.year }})</small>
-                </p>
-              </td>
-            </tr>
-          </table>
+                <div class="w-container">
+                  <a v-bind:href="item.link" target="_blank" v-bind:alt="item.title" v-bind:aria-label="item.title" class="project-title">{{ item.title }}</a>
+                  <small v-if="item.status == 'redesigned'" alt="re-designed"><span class="status-icon">🫥</span> (redesigned)</small>
+                  <small v-if="item.status == 'down'" alt="dead link"><span class="status-icon">😵</span> (down)</small>
+                  <small v-if="item.status == 'private'" alt="private"><span class="status-icon">🔒</span> (private)</small>
+  
+                  <p class="text-muted description">
+                    <span v-html="item.desc"></span> <small v-if="item.year">({{ item.year }})</small>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div><!-- works -->
 
         <div id="graphic-works" class="pb-2 pt-3">

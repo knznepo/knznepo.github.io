@@ -18,6 +18,11 @@ html {
 a {
   color: #195894;
   text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 body p {
@@ -163,8 +168,8 @@ table td {
 .fa-codeigniter {
   background-image: url(https://cdn.iconscout.com/icon/free/png-512/codeigniter-1-458250.png);
   position: relative;
-  width: 21px;
-  height: 23px;
+  width: 23px;
+  height: 25px;
   opacity: .8;
   display: inline-block;
   background-size: 100%;
@@ -211,6 +216,8 @@ p, table td {
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
+  border-radius: 8px;
+  background-color: #fbfbfb;
 }
 
 #skills a:hover {
@@ -219,14 +226,14 @@ p, table td {
 }
 
 #skills i {
-  font-size: 1em;
+  font-size: 1.3em;
   color: #6f6f6f;
   margin-right: 10px;
 }
 
 #skills img {
   opacity: .6;
-  width: 18px;
+  width: 20px;
   margin-right: 10px;
 }
 
@@ -236,14 +243,15 @@ p, table td {
   object-fit: contain;
 }
 
-#works-table {
+.w-list {
   max-height: 400px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   overflow-y: scroll;
-  background-color: #fbfbfb;
 }
 
-#works-table .description {
+.w-list .description {
   font-size: 15px;
   line-height: 21px;
   margin-top: 7px;
@@ -251,26 +259,48 @@ p, table td {
   color: #555759;
 }
 
-#works-table tr {
+.w-list li {
+  display: flex;
+  flex-direction: column;
   transition: all .4s ease-in-out;
 }
 
-#works i.fa-codeigniter {
+.w-list i.fa-codeigniter {
   width: 33px;
   height: 37px;
 }
 
-#works i {
+.w-list i {
   font-size: 2em;
+  color: #6a6a6a;
 }
 
-#works td {
-  vertical-align: middle;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.w-list .project-title {
+  font-weight: 500;
+  font-size: 18px;
 }
 
-#works td a:hover {
+.w-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 25px 20px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  transition: all .5s ease-in-out;
+}
+
+.w-wrapper:hover {
+  background-color: #f5f7f9;
+}
+
+.w-wrapper > div:first-child {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-list a:hover {
   text-decoration: underline;
 }
 
@@ -291,6 +321,7 @@ p, table td {
 #skills-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
 }
 
 p {
