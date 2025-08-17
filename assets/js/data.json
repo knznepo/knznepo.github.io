@@ -1,4 +1,12 @@
-[ 
+[
+  {
+    "title": "Rancho Bernardo (WIP)",
+    "type": "figma",
+    "link": "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=932%3A1237&node-id=1441-5734&p=f&viewport=-2216%2C-1987%2C0.42&t=K2ejJeyKWWjbb5G6-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1441%3A5734",
+    "desc": "Wordpress website redesign. (Current website <a target='_blank' href='https://ranchobernardo.ph/'>here</a>)",
+    "status": "wip",
+    "year": "2025"
+  }, 
   {
     "title": "Compass Initiative 2.0 (WIP)",
     "type": "figma",
