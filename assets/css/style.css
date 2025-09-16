@@ -93,8 +93,14 @@ table td {
 }
 
 .navbar-brand .text-logo {
-  font-size: 1.3em;
+  font-size: 1em;
   margin-right: 8px;
+}
+
+@media(min-wdith: 398px) {
+  .navbar-brand .text-logo {
+    font-size: 1.3em;
+  }
 }
 
 .navbar-brand span, h2 {
@@ -131,9 +137,16 @@ table td {
 #social-links li a {
   display: block;
   vertical-align: middle;
-  margin-left: 20px;
+  margin-left: 14px;
   color: #65778b;
 }
+
+@media (min-width: 398px) {
+  #social-links li a {
+    margin-left: 20px;
+  }
+}
+
 
 #avatar-left {
   display: none;
