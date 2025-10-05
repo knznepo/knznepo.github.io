@@ -1,5 +1,13 @@
 [
   {
+    "title": "Library AI",
+    "type": "python",
+    "link": "https://library-ai.streamlit.app/",
+    "desc": "Upload your books or documents and ask questions. The AI will answer based solely on your uploaded content. This is a personal project to learn Python and AI, built with <b>Google Gemini</b>, <b>FAISS</b>, and <b>Python.</b>",
+    "status": "",
+    "year": "2025"
+  }, 
+  {
     "title": "Rancho Bernardo (WIP)",
     "type": "figma",
     "link": "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=932%3A1237&node-id=1441-5734&p=f&viewport=-2216%2C-1987%2C0.42&t=K2ejJeyKWWjbb5G6-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1441%3A5734",
