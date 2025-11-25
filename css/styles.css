@@ -927,6 +927,7 @@ a:hover {
     display: inline-block;
     position: relative;
     left: 0;
+    top: 1px;
     transition: left .9s ease;
 }
 
