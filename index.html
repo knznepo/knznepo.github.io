@@ -1,6 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" data-lg-smooth>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="title" content="knz." />
+    <meta name="description" content="Hi! I’m a web designer and developer based in the Philippines with 10+ years of experience. I enjoy creating clean, responsive, and user-friendly websites—whether I’m designing layouts or coding them from scratch. I love learning new tools, experimenting with modern tech, and helping ideas come alive on the web." />
+    <meta name="keywords" content="web developer philippines, web designer philippines, filipino web developer, filipino web designer, laravel developer, react developer, frontend developer, backend developer, kenaz nepomuceno, web portfolio" />
+    <meta name="author" content="Kenaz Nepomuceno" />
+
+    <meta property="og:url" content="https://knznepo.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="knz." />
+    <meta property="og:description" content="Hi! I’m a web designer and developer based in the Philippines with 10+ years of experience. I enjoy creating clean, responsive, and user-friendly websites—whether I’m designing layouts or coding them from scratch. I love learning new tools, experimenting with modern tech, and helping ideas come alive on the web." />
+    <meta property="og:image" content="https://knznepo.github.io/knz-banner.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="knz." />
+
+    <link rel="icon" type="image/png" href="https://knznepo.github.io/favico.ico" />
+    
+    <title>knz.</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="plugins/luge/css/luge.css">
+    <!-- swipper.js -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/56bb0df094.js" crossorigin="anonymous" defer></script>
+
     <!-- Google tag (gtag.js) -->
     <script defer src="https://www.googletagmanager.com/gtag/js?id=G-3QZRZ12W10"></script>
     <script defer>
@@ -10,167 +40,245 @@
 
       gtag('config', 'G-3QZRZ12W10');
     </script>
+</head>
+<body>
 
-    <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <header class="main-header">
+        <div class="wrapper flex justify-between align-center">
+            <h1 class="site-title">
+                <a href="#" class="random-hover">k<span class="text-flip-horizontal animate-flip-horizontal">n</span>z.</a>
+            </h1>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="/assets/css/style.min.css">
-
-    <script src="https://kit.fontawesome.com/56bb0df094.js" crossorigin="anonymous" defer></script>
-
-    <!-- meta -->
-    <meta name="title" 		   content="Kenaz Nepomuceno" />
-    <meta name="description" content="Web developer & designer since 2011. Based in the Philippines.🇵🇭  Fluent in Lorem ipsum dolor." />
-    <meta name="keywords" 	 content="Web Developer, Web Designer, Philippines, Kenaz, Kenaz Nepomuceno, Front-end, Back-end, Website, Laravel, ReactJS, Codeigniter, Wordpress, Google, web developer in philippines, web designer in philippines, filipino web designer" />
-    <meta name="author" 		 content="Kenaz Nepomuceno" />
-    <meta name="theme-color" content="#195894" />
-      
-    <meta property="og:url" 		     content="https://www.knznepo.github.io" />
-    <meta property="og:type" 		     content="website" />
-    <meta property="og:title" 		   content="Kenaz Nepomuceno Portfolio" />
-    <meta property="og:description"  content="Web developer & designer since 2011. Based in the Philippines.🇵🇭  Fluent in Lorem ipsum dolor." />
-    <meta property="og:image" 		   content="https://knznepo.github.io/knz-banner.jpg" />
-    <meta property="og:image:type"   content="image/jpg" />
-    <meta property="og:image:width"  content="1024" />
-    <meta property="og:image:height" content="1024" />
-    <meta property="og:author" 		   content="Kenaz Nepomuceno" />
-    <meta property="og:site_name" 	 content="Kenaz Nepomuceno Webiste" />
-
-    <link rel="icon" type="image/png" href="https://knznepo.github.io/favico.ico" />
-
-    <title>knznepo 😎</title>
-  </head>
-
-  <body>
-    <header>
-      <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container container-slim">
-          <a class="navbar-brand" href="#">
-            <strong>
-              <span class="text-logo">}{</span>
-              <span>knznepo</span>
-            </strong>
-          </a>
-          <ul id="social-links" class="mr-1">
-            <li><a href="https://www.facebook.com/kenaz.nepomuceno" target="_blank" alt="Facebook" aria-label="link to facebook"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.behance.net/knznepo" target="_blank" alt="Behance" aria-label="link to behance"><i class="fab fa-behance"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/kenaz-nepomuceno-53359628/" target="_blank" alt="LinkedIn" aria-label="link to linkedin"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/knznpmcn/" target="_blank" alt="Instagram" aria-label="link to instagram"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.threads.net/@knznpmcn" target="_blank" alt="Threads" aria-label="link to threads"><i class="fa-brands fa-threads"></i></a></li>
-            <li><a href="https://twitter.com/knznpmcn" target="_blank" alt="X" aria-label="link to X"><i class="fa-brands fa-x-twitter"></i></a></li>
-          </ul>
-        </div><!-- container -->
-      </nav>
+            <nav class="main-nav">
+                <ul class="main-nav-links">
+                    <li><a href="#works" class="random-hover">Works</a></li>
+                    <li><a href="#about" class="random-hover">About</a></li>
+                    <li><a href="#contact" class="random-hover"><b>Hire Me</b></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="main-container" class="mb-3">
-      <div class="container container-slim mt-5 pt-3">
+    <section class="hero-section">
+        <div class="hero-body">
+            <div class="wrapper">
+                <h1 class="animate animate-fadein-down">Less Noise. More Meaning.</h1>
+                <p class="animate animate-fadein-up">
+                    I’m Kenaz, a designer and developer who believes that good design is quiet but powerful. My work focuses on simplicity, usability, and emotional resonance — shaping digital experiences that feel as good as they look.
+                </p>
+            </div>
+        </div>
 
-        <div id="about" class="pb-5">
-          <img src="https://knznepo.github.io/assets/images/me.webp" height="280" width="110" alt="My Avatar">
+        <div class="hero-footer">
+            <div class="responsive-scroll animate-fade-in-up" title="scroll down">
+                <span class="scroll-thisico"></span>
+            </div>
+        </div>
+    </section>
 
-          <h2><strong>Hi I'm Kenaz</strong></h2>
-          <p>Creative designer, detail-oriented developer. Converting coffee into websites since 2011, based in the Philippines 🇵🇭. Fluent in Lorem Ipsum.</p>
-        </div><!-- about -->
+    <section class="works-section" id="works">
+        <div class="wrapper">
+            <header class="section-header animate animate-fadein-up">
+                <span>Featured Works</span>
+                <h2 class="section-title">Showcase</h2>
+            </header>
+        </div>
 
-        <div id="skills" class="pb-5 pt-3">
-          <h2>🧰 Tech Stack</h2>
-          <p class="description">Here are the tech stack and tools I use</p>
-          <hr/>
+        <section class="section-body">
+            <div class="swiper">
+                <div class="swiper-wrapper" id="work-slider">
 
-          <div id="skills-links">
-              <a href="https://laravel.com/" target="_blank" alt="Laravel"><i class="fa-brands fa-laravel"></i>Laravel</a>
-              <a href="https://codeigniter.com/" target="_blank" alt="Codeigniter"><i class="fa-codeigniter"></i>Codeigniter</a>
-              <a href="https://wordpress.org/" target="_blank" alt="WordPress"><i class="fab fa-wordpress"></i>WordPress</a>
-              <a href="https://www.drupal.org/" target="_blank" alt="Drupal"><i class="fab fa-drupal"></i>Drupal</a>
-              <a href="https://www.shopify.com/" target="_blank" alt="Shopify"><i class="fa-brands fa-shopify"></i>Shopify</i></a>
-              <a href="https://www.bigcommerce.com/" target="_blank" alt="BigCommerce"><i class="custom-icon icon-bigcommerce"></i>BigCommerce</a>
-            
-              <a href="https://reactjs.org/" target="_blank" alt="ReactJS"><i class="fab fa-react"></i>ReactJS</a>
-              <a href="https://vuejs.org/" target="_blank" alt="VueJS"><i class="fab fa-vuejs"></i>VueJS</a>
-              <a href="https://nextjs.org/" target="_blank" alt="NextJS"><i class="fa-brands fa-nextjs"></i>NextJS</a>
-              <a href="https://nodejs.org/en/" target="_blank" alt="NodeJS"><i class="fab fa-node-js"></i>NodeJS</a>
-              
-              <a href="https://www.w3schools.com/css/" target="_blank" alt="CSS"><i class="fab fa-css3-alt"></i> CSS</a>
-              <a href="https://sass-lang.com/" target="_blank" alt="SASS"><i class="fab fa-sass"></i> Sass</a>
-              <a href="https://tailwindui.com/" target="_blank" alt="TailwindUI"><i class="fa-brands fa-tailwind"></i> Tailwind</a>
-            
-              <a href="https://elementor.com/" target="_blank" alt="Elementor"><i class="fa-brands fa-elementor"></i> Elementor</a>
-              <a href="https://www.elegantthemes.com/gallery/divi/" target="_blank" alt="Divi"><i class="fa-brands fa-divi"></i> Divi</a>
-              <a href="https://www.figma.com/" target="_blank" alt="Figma"><i class="fa-brands fa-figma"></i> Figma</a>
-              <a href="https://www.photoshop.com/" target="_blank" alt="Photoshop"><i class="fa-brands fa-photoshop"></i> Photoshop</a>
-              <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" alt="Lightroom"><i class="fa-brands fa-lightroom"></i> Lightroom</a>         
-              <a title="Laptop" href="https://www.apple.com/" alt="Mac"><i class="fas fa-laptop"></i>Mac</a>
-              <a title="Coffee" href="https://www.facebook.com/kapehantaytay" alt="Coffee"><i class="fas fa-mug-hot"></i>Coffee</a>
+                    <div v-for="item in worksSlider" class="swiper-slide">
+                        <div class="works">
+                            <div class="work-item" :style="`background-color: ${item.theme.bg}; color: ${item.theme.text};`">
+                                <div class="wrapper flex">
+                                    <div class="work-details animate animate-fadein-right">
+                                        <span class="work-tags">{{ item.title_tag }}</span>
+                                        <h3 class="work-title">{{ item.title }}</h3>
+                                        
+                                        <div class="work-description" v-html="item.description"></div>
 
-            <div class="clearfix"></div>
-          </div><!-- skills-links -->
-        </div><!-- skills -->
+                                        <div class="work-details-footer flex justify-between">
+                                            <ul class="work-tech-used">
+                                                <li v-for="tech in item.tech">
+                                                    <template v-if="Array.isArray(tech)">
+                                                        <a :href="tech[1]" target="_blank" :style="`color: ${item.theme.text}`">
+                                                            <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(tech[0])">
+                                                                <i :class="`icon-custom icon-${tech[0]}`" :title="`${capitalize(tech[0])}`" :style="`background-color: ${item.theme.text}`"></i>
+                                                            </template>
 
-        <div id="works" class="pb-5 pt-3">
-          <h2>☕️ Works</h2>
-          <p class="description">This section showcases some of my work</p>
-          <hr/>
-          
-          <ul class="w-list">
-            <li v-for="item in works">
-              <div class="w-wrapper">
-                <div class="w-container">
-                  <i class="fab" v-bind:class="'fa-'+item.type"></i>
+                                                            <template v-else>
+                                                                <i :class="['fab', `fa-${tech[0]}`, 'fa-lg']" :title="capitalize(tech[0])"></i>
+                                                            </template>
+                                                        </a>
+                                                    </template>
+
+                                                    <template v-else>
+
+                                                        <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(tech)">
+                                                            <i :class="`icon-custom icon-${tech}`" :title="`${capitalize(tech)}`" :style="`background-color: ${item.theme.text}`"></i>
+                                                        </template>
+
+                                                        <template v-else>
+                                                            <i :class="['fab', `fa-${tech}`, 'fa-lg']" :title="capitalize(tech)" :style="`color: ${item.theme.text}`"></i>
+                                                        </template>
+                                                        
+                                                    </template>
+                                                </li>
+                                            </ul>
+
+                                            <a :href="item.link" target="_blank" class="visit-link" :style="`color: ${item.theme.text}`"><span>Visit</span> <i class="fa-solid fa-arrow-right-long fa-lg visit-link-icon" title="Visit Link"></i></a>
+                                        </div>
+
+                                    </div>
+
+                                    <a :href="item.link" target="_blank" class="work-thumbnail animate animate-fadein-right" :style="`box-shadow: 0px 5px 20px 0px ${item.theme.shadow}`">
+                                        <img class="animate animate-fadein-right" :src="`/images/${item.thumbnail}`" alt="COMPASS Initiative Website Mockup">
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- works -->
+                    </div><!-- swiper slide -->
+
+                </div><!-- swiper-wrapper -->
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="wrapper">
+                    <nav class="work-slider-nav">
+                        <!-- If we need navigation buttons -->
+                        <div class="flex">
+                            <div class="work-prev work-nav random-hover">Prev</div>
+                            <div class="work-next work-nav random-hover">Next</div>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <a href="#more-works" class="animate animate-fadein-left more-works-link random-hover">
+                                <i class="fa-solid fa-code"></i>
+                                <span>More Works</span>
+                            </a>
+                        </div>
+                    </nav>
                 </div>
+            </div><!-- swiper -->
+        </section>
 
-                <div class="w-container">
-                  <a v-bind:href="item.link" target="_blank" v-bind:alt="item.title" v-bind:aria-label="item.title" class="project-title">{{ item.title }}</a>
-                  <small v-if="item.status == 'redesigned'" alt="re-designed"><span class="status-icon">🫥</span> (redesigned)</small>
-                  <small v-if="item.status == 'down'" alt="dead link"><span class="status-icon">😵</span> (down)</small>
-                  <small v-if="item.status == 'private'" alt="private"><span class="status-icon">🔒</span> (private)</small>
-  
-                  <p class="text-muted description">
-                    <span v-html="item.desc"></span> <small v-if="item.year">({{ item.year }})</small>
-                  </p>
+        <!-- More Works Modal -->
+        <div class="modal">
+            <div class="modal-box">
+                <header class="flex justify-between align-center">
+                    <h3>More Works</h3>
+
+                    <a href="#" class="modal-close"><i class="fa-solid fa-xmark fa-sm"></i></a>
+                </header>
+
+                <section id="more-works" data-lg-smooth>
+                    <div class="flex align-center justify-between more-works-item" v-for="work in works">
+                        <div class="more-works-details">
+                            <h4>{{ work.title }}</h4>
+                            <div v-html="work.desc"></div>
+
+                            <ul class="more-works-meta flex gap-xl">
+                                <li><b>Year:</b> {{ work.year }}</li>
+                                <li v-if="work.status != ''"><b>Status:</b> {{ work.status }}</li>
+                                <li>
+                                    <a :href="`${work.link}`" target="_blank" class="visit-link align-center"><b>Visit</b> <i class="fa-solid fa-arrow-right-long fa-lg visit-link-icon" title="Visit Link"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="more-works-icon flex justify-center">
+                            <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(work.type)">
+                                <i :class="`icon-custom icon-${work.type}`"></i>
+                            </template>
+
+                            <template v-else>
+                                <i :class="`fab fa-${work.type} fa-2xl`"></i>
+                            </template>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+                                                            
+    <section class="about-section" id="about">
+        <div class="wrapper">
+            <header class="section-header animate animate-fadein-up">
+                <span>About Me</span>
+                <h2 class="section-title">Web <i>Designer</i> & Developer</h2>
+            </header>
+
+            <div class="about-me-container">
+                <img src="images/me.webp" alt="kenaz" id="me" class="animate animate-fadein-left">
+                <div class="animate animate-fadein-right">
+                    <p>Hi! I’m a web designer and developer based in the Philippines with 10+ years of experience. I enjoy creating clean, responsive, and user-friendly websites—whether I’m designing layouts or coding them from scratch. I love learning new tools, experimenting with modern tech, and helping ideas come alive on the web.</p>
+                    
+                    <h3>Skills & Expertise</h3>
+                    <ul class="tech-stack">
+                        <li>Laravel</li>
+                        <li>Codeigniter</li>
+                        <li>WordPress</li>
+                        <li>Drupal</li>
+                        <li>Shopify</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NextJS</li>
+                        <li>NodeJS</li>
+                        <li>Sass</li>
+                        <li>Tailwind</li>
+                        <li>Elementor</li>
+                        <li>Divi</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Lightroom</li>
+                    </ul>
                 </div>
-              </div>
-            </li>
-          </ul>
-        </div><!-- works -->
+            </div>
+        </div>
+    </section>
 
-        <div id="graphic-works" class="pb-2 pt-3">
-          <h2>🎨 Graphic Works</h2>
-          <p class="description">
-            Web design, logo, branding, vector arts, photography, etc. <br/>
-            visit &#8594; <a href="https://www.behance.net/knznepo" target="_blank" alt="Link to my Behance account" aria-label="Link to my Behance account">behance.net/knznepo</a>
-          </p>
-        </div><!-- graphic-works -->
+    <section class="contact-section" id="contact">
+        <div class="wrapper">
+            <div class="flex justify-between">
+                <section>
+                    <header class="section-header animate animate-fadein-up">
+                        <span>Hire Me</span>
+                        <h2 class="section-title">Let's Work Together</h2>
+                    </header>
 
-        <hr/>
+                    <p class="animate animate-fadein-up mb-lg">Send me a message and let’s make something great.</p>
 
-        <div id="contact" class="pb-5 pt-3">
-          <h2>🤙🏼 Say Hello</h2>
-          <p class="description">
-            <a href="mailto: kenaznepomuceno@gmail.com" alt="my email" aria-label="my email">Let's talk!</a>
-          </p>
+                    <div class="flex flex-column gap-2">
+                        <div class="flex align-center email-link animate animate-fadein-down">
+                            <i class="fa fa-envelope"></i><a href="mailto:kenaznepomuceno@gmail.com">kenaznepomuceno@gmail.com</a>
+                        </div>
 
-        </div><!-- contact -->
+                        <div class="flex align-center email-link animate animate-fadein-down">
+                            <i class="fa fa-location-dot"></i><span>Philippines</span>
+                        </div>
+                    </div>
+                </section>
 
-      </div><!-- container -->
+                <section class="flex flex-end align-center">
+                    <div class="history-log">
+                        <p>History Log</p>
+                        <ul>
+                            <li><a href="2017-2018/index.html">2017-2018</a></li>
+                            <li><a href="2019-2025/index.html">2019-2025</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
 
-    </section><!-- main-container -->
-
-    <footer id="main-footer" class="mb-5 pb-3">
-      <div class="container container-slim">
-        <p class="text-center p-footer">&copy; 2019-<span class="js-date"></span>. All rights reserved. <br/>
-          <a href="https://knznepo.github.io/2017-2018/index.html" alt="old site" aria-label="old site">2017-2018</a>
-        </p>
-      </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js" defer></script>
+    <script src="plugins/luge/js/luge.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <scrtip src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" defer></script>
-    <script src="/assets/js/script.min.js" defer></script>
-  </body>
+    
+    <script src="js/scripts.js"></script>
+</body>
 </html>

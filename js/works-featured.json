@@ -1,0 +1,111 @@
+[
+    {
+        "title": "New Vietnamese Bible",
+        "title_tag": "Web Design & Development",
+        "description": "<p>The Holy Bible for Vietnamese in their heart language from an accredited team of trained Vietnamese theologians.</p><p>Redesigned and rebuilt using Laravel and Vue.js, this platform provides Bible reading, audio listening, and basic e-commerce functionality.</p>",
+        "tech": [
+            ["figma", "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=910%3A1512&node-id=914-3753&viewport=325%2C103%2C0.06&t=ozb4xExp2nMEWCB1-1&scaling=min-zoom&content-scaling=fixed"],
+            "laravel",
+            "vuejs"
+        ],
+        "thumbnail": "thumbnail-nvb.webp",
+        "link": "https://nvbible.org",
+        "year": "2024",
+        "status": "public",
+        "theme": {
+            "bg": "#f4f4f4",
+            "text": "#272e42",
+            "shadow": "#dddcdc"
+        }
+    },
+    {
+        "title": "Compass Initiative",
+        "title_tag": "Web Design",
+        "description": "<p>A Nazarene initiative to address US and Canadian ministers’ most pressing financial difficulties.</p> <p>WordPress redesign project: from Figma design to a custom Elementor theme development, including CMS transfer from Drupal to WordPress. <small>(WIP)</small></p>",
+        "tech": [
+            ["figma", "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=926%3A11818&node-id=926-20217&viewport=598%2C180%2C0.17&t=8yQ5BDIRbS5C31N4-1&scaling=min-zoom&content-scaling=fixed"],
+            "wordpress",
+            "elementor"
+        ],
+        "thumbnail": "thumbnail-compass-initiative.webp",
+        "link": "https://dev.compassinitiative.org",
+        "year": "2025",
+        "status": "wip",
+        "theme": {
+            "bg": "#578266",
+            "text": "#fff",
+            "shadow": "#578266"
+        }
+    },
+    {
+        "title": "Mx Messiah Fairgrounds",
+        "title_tag": "Web Design",
+        "description": "<p>A WordPress-based news media website focused on motocross event coverage, designed and built with Elementor.</p>",
+        "tech": [
+            ["figma", "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=914%3A11155&node-id=920-11546&viewport=614%2C125%2C0.19&t=6HhjWKAy6jx5SaUd-1&scaling=min-zoom&content-scaling=fixed"],
+            "wordpress",
+            "elementor"
+        ],
+        "thumbnail": "thumbnail-mmf.webp",
+        "link": "http://mxmessiahfairgrounds.com",
+        "year": "2024",
+        "status": "public",
+        "theme": {
+            "bg": "#151515",
+            "text": "#F9DD3B",
+            "shadow": "#151515"
+        }
+    },
+    {
+        "title": "Shoutout",
+        "title_tag": "Learning",
+        "description": "<p>Built as a personal project to learn <b>NextJS</b> and <b>Firebase</b>, this site lets you post shoutouts and view them on a map based on your location.</p>",
+        "tech": [
+            "nextjs",
+            "firebase"
+        ],
+        "thumbnail": "thumbnail-shoutout.webp",
+        "link": "https://shoutout-io.web.app/",
+        "year": "2021",
+        "status": "public",
+        "theme": {
+            "bg": "#f6f6f6",
+            "text": "#5165f6",
+            "shadow": "#5165f6"
+        }
+    },
+    {
+        "title": "Coffibar",
+        "title_tag": "Branding",
+        "description": "<p>This project focuses on establishing a brand for a local startup coffee shop.</p>",
+        "tech": [
+            ["behance", "https://www.behance.net/gallery/120742557/Coffibar-Logo"]
+        ],
+        "thumbnail": "thumbnail-coffibar.webp",
+        "link": "https://www.behance.net/gallery/120742557/Coffibar-Logo",
+        "year": "2021",
+        "status": "public",
+        "theme": {
+            "bg": "#594322",
+            "text": "#fff",
+            "shadow": "#594322"
+        }
+    },
+    {
+        "title": "Rancho Bernardo",
+        "title_tag": "Web Design",
+        "description": "<p>A homepage redesign project for a luxury resort in the Philippines.</p>",
+        "tech": [
+            ["figma", "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=932%3A1237&node-id=939-1243&viewport=203%2C169%2C0.33&t=T3jivaxW0EE6mume-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1441%3A5734"]
+        ],
+        "thumbnail": "thumbnail-ranchobernardo.webp",
+        "link": "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=932%3A1237&node-id=939-1243&viewport=203%2C169%2C0.33&t=T3jivaxW0EE6mume-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1441%3A5734",
+        "year": "2025",
+        "status": "public",
+        "theme": {
+            "bg": "#094137",
+            "text": "#fff",
+            "shadow": "#094137"
+        }
+    }
+]
