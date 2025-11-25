@@ -349,11 +349,17 @@ a:hover {
 
 .modal-close {
     background-color: var(--color-lightgray-1);
-    padding: 3px 10.5px;
+    padding: 2.24px 10.5px;
     border-radius: 100%;
     color: #fff;
     transition: background .4s ease-in;
     cursor: pointer;
+}
+
+.modal-close i {
+    position: relative;
+    top: 1px;
+    left: .7px;
 }
 
 .modal-close:hover {
