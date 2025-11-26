@@ -178,18 +178,32 @@ a:hover {
 .animate-slide-down.animated {
     animation: slide-down 1.2s forwards;
     position: relative;
-    top: -60px;
+    top: -100px;
 }
 
 @keyframes slide-down {
     0% {
-        top: -60px;
+        top: -100px;
     }
     100% {
         top: 0;
     }
 }
 
+@media (min-width: 768px) {
+    .animate-slide-down.animated { 
+        top: -60px;
+    }
+
+    @keyframes slide-down {
+        0% {
+            top: -60px;
+        }
+        100% {
+            top: 0;
+        }
+    }
+}
 
 .animate-fadein-up.animated {
     animation: fade-in-up 1.2s forwards;
