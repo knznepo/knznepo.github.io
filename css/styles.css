@@ -175,14 +175,31 @@ a:hover {
     }
 }
 
+.animate-slide-down.animated {
+    animation: slide-down 1.2s forwards;
+    position: relative;
+    top: -60px;
+}
+
+@keyframes slide-down {
+    0% {
+        top: -60px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
 .animate-fadein-up.animated {
     animation: fade-in-up 1.2s forwards;
     position: relative;
+    opacity: 0;
 }
 
 @keyframes fade-in-up {
     0% {
-        opacity: 0.4;
+        opacity: 0;
         top: 20px;
     }
     100% {
@@ -194,11 +211,12 @@ a:hover {
 .animate-fadein-down.animated {
     animation: fade-in-down 1.2s forwards;
     position: relative;
+    opacity: 0;
 }
 
 @keyframes fade-in-down {
     0% {
-        opacity: 0.4;
+        opacity: 0;
         top: -20px;
     }
     100% {
@@ -210,11 +228,12 @@ a:hover {
 .animate-fadein-left.animated {
     animation: fade-in-left 1.2s forwards;
     position: relative;
+    opacity: 0;
 }
 
 @keyframes fade-in-left {
     0% {
-        opacity: 0.4;
+        opacity: 0;
         left: -20px;
     }
     100% {
@@ -226,11 +245,12 @@ a:hover {
 .animate-fadein-right.animated {
     animation: fade-in-right 1.2s forwards;
     position: relative;
+    opacity: 0;
 }
 
 @keyframes fade-in-right {
     0% {
-        opacity: 0.4;
+        opacity: 0;
         left: 20px;
     }
     100% {
@@ -242,6 +262,7 @@ a:hover {
 .animate-scale-up {
     transform-origin: center bottom;
     display: inline-block !important;
+    opacity: 0;
 }
 
 .animate-scale-up.animated {
@@ -250,7 +271,7 @@ a:hover {
 
 @keyframes scale-up {
     0% {
-        opacity: 0.4;
+        opacity: 0;
         transform: scale(.6);
     }
 
@@ -261,7 +282,31 @@ a:hover {
 }
 
 .animate-delay-02 {
-    animation-delay: 0.2s;
+    animation-delay: 0.2s !important;
+}
+
+.animate-delay-04 {
+    animation-delay: 0.4s !important;
+}
+
+.animate-delay-06 {
+    animation-delay: 0.6s !important;
+}
+
+.animate-delay-08 {
+    animation-delay: 0.8s !important;
+}
+
+.animate-delay-1 {
+    animation-delay: 1s !important;
+}
+
+.animate-delay-2 {
+    animation-delay: 2s !important;
+}
+
+.animate-delay-4 {
+    animation-delay: 4s !important;
 }
 
 .wrapper {
@@ -464,6 +509,7 @@ a:hover {
 .hero-footer small {
     font-size: 12px;
     margin-top: 10px;
+    color: var(--color-lightgray-1);
 }
 
 /* Keyframes moved to top-level (SCSS doesn't allow them inside a selector in pure CSS) */
