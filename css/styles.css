@@ -334,6 +334,7 @@ a:hover {
         width: 60vw;
         height: 80vh;
         padding: var(--spacing-base) var(--spacing-xl);
+        padding-bottom: var(--spacing-xl);
     }
 
     .modal-box header {
@@ -349,17 +350,16 @@ a:hover {
 
 .modal-close {
     background-color: var(--color-lightgray-1);
-    padding: 2.24px 10.5px;
     border-radius: 100%;
     color: #fff;
     transition: background .4s ease-in;
     cursor: pointer;
-}
-
-.modal-close i {
-    position: relative;
-    top: 1px;
-    left: .7px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
 }
 
 .modal-close:hover {
