@@ -295,6 +295,14 @@ a:hover {
     }
 }
 
+.animate-fadein,
+.animate-fadein-up,
+.animate-fadein-down,
+.animate-fadein-left,
+.animate-fadein-right {
+    opacity: 0;
+}
+
 .animate-delay-02 {
     animation-delay: 0.2s !important;
 }
@@ -1079,13 +1087,17 @@ a:hover {
 #me {
     width: 140px;
     object-fit: contain;
+    opacity: 0;
+}
+
+.about-me-text {
+    opacity: 0;
 }
 
 .about-me-container {
     display: flex;
     align-items: center;
     gap: 34px;
-
     flex-direction: column;
 }
 
