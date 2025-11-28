@@ -443,7 +443,7 @@ a:hover {
 
 /* HEADER START */
 .main-header {
-    padding: var(--spacing-lg) 0;
+    padding: 0;
 }
 
 .main-header h1 a {
@@ -493,6 +493,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .main-header {
+        padding: var(--spacing-lg) 0;   
+    }
+
     .hero-section {
         height: 100vh;
     }
@@ -666,9 +670,10 @@ a:hover {
     /* min-height: 68vh; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
-    padding: 60px 0;
+    
+    padding: 20px 0;
 }
 
 .work-item .wrapper {
@@ -698,6 +703,12 @@ a:hover {
     margin-bottom: var(--spacing-lg);
 }
 
+@media (max-width: 768px) {
+    .work-thumbnail {
+        box-shadow: rgb(32 32 32 / 43%) 0px 5px 20px 0px !important;
+    }
+}
+
 @media (min-width: 640px) {
     .work-item {
         height: 720px;
@@ -707,6 +718,8 @@ a:hover {
 @media (min-width: 768px) {
     .work-item .wrapper {
         flex-direction: row;
+        align-items: center;
+        padding: 60px 0;
     }
 
     .work-item {
