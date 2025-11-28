@@ -93,7 +93,7 @@
                         <div class="works">
                             <div class="work-item" :style="`background-color: ${item.theme.bg}; color: ${item.theme.text};`">
                                 <div class="wrapper flex">
-                                    <div class="work-details animate animate-fadein-right">
+                                    <div class="work-details">
                                         <span class="work-tags">{{ item.title_tag }}</span>
                                         <h3 class="work-title">{{ item.title }}</h3>
                                         
@@ -133,8 +133,8 @@
 
                                     </div>
 
-                                    <a :href="item.link" target="_blank" class="work-thumbnail animate animate-fadein-right" :style="`box-shadow: 0px 5px 20px 0px ${item.theme.shadow}`">
-                                        <img class="animate animate-fadein-right" :src="`/images/${item.thumbnail}`" alt="COMPASS Initiative Website Mockup">
+                                    <a :href="item.link" target="_blank" class="work-thumbnail" :style="`box-shadow: 0px 5px 20px 0px ${item.theme.shadow}`">
+                                        <img :src="`/images/${item.thumbnail}`" alt="COMPASS Initiative Website Mockup">
                                     </a>
                                 </div>
                             </div>
