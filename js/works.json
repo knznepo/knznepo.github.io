@@ -1,5 +1,13 @@
 [
   {
+    "title": "Youth Quiz",
+    "type": "wordpress",
+    "link": "https://youthquiz.com/",
+    "desc": "YouthQuiz Digital Access is an online study platform designed to help teens engage deeply with Scripture through memorization and study tools.",
+    "status": "",
+    "year": "2026"
+  }, 
+  {
     "title": "Library AI",
     "type": "python",
     "link": "https://library-ai.streamlit.app/",
