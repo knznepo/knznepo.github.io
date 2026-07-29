@@ -5,7 +5,8 @@
         "description": "<p>YouthQuiz Digital Access is an online study platform designed to help teens engage deeply with Scripture through memorization and study tools.</p>",
         "tech": [
             ["figma", "https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?node-id=2823-3062&t=bN6GPMZwUTLSvyqs-1&scaling=min-zoom&content-scaling=fixed&page-id=2226%3A1146&starting-point-node-id=2823%3A3062"],
-            "wordpress"
+            "wordpress",
+            "elementor"
         ],
         "thumbnail": "thumbnail-yq.webp",
         "link": "https://youthquiz.com/",
