@@ -6,6 +6,14 @@
     "desc": "YouthQuiz Digital Access is an online study platform designed to help teens engage deeply with Scripture through memorization and study tools.",
     "status": "",
     "year": "2026"
+  },  
+  {
+    "title": "UploadAR",
+    "type": "python",
+    "link": "https://uploadar.web.app/",
+    "desc": "UploadAR is a personal project that lets users upload, discover, and share location-based augmented reality (AR) content.",
+    "status": "",
+    "year": "2026"
   }, 
   {
     "title": "Library AI",

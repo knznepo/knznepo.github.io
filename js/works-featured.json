@@ -76,24 +76,6 @@
         }
     },
     {
-        "title": "Shoutout",
-        "title_tag": "Learning",
-        "description": "<p>Built as a personal project to learn <b>NextJS</b> and <b>Firebase</b>, this site lets you post shoutouts and view them on a map based on your location.</p>",
-        "tech": [
-            "nextjs",
-            "firebase"
-        ],
-        "thumbnail": "thumbnail-shoutout.webp",
-        "link": "https://shoutout-io.web.app/",
-        "year": "2021",
-        "status": "public",
-        "theme": {
-            "bg": "#f6f6f6",
-            "text": "#5165f6",
-            "shadow": "#5165f6"
-        }
-    },
-    {
         "title": "Coffibar",
         "title_tag": "Branding",
         "description": "<p>This project focuses on establishing a brand for a local startup coffee shop.</p>",
@@ -125,6 +107,24 @@
             "bg": "#094137",
             "text": "#fff",
             "shadow": "#094137"
+        }
+    },
+    {
+        "title": "Shoutout",
+        "title_tag": "Learning",
+        "description": "<p>Built as a personal project to learn <b>NextJS</b> and <b>Firebase</b>, this site lets you post shoutouts and view them on a map based on your location.</p>",
+        "tech": [
+            "nextjs",
+            "firebase"
+        ],
+        "thumbnail": "thumbnail-shoutout.webp",
+        "link": "https://shoutout-io.web.app/",
+        "year": "2021",
+        "status": "public",
+        "theme": {
+            "bg": "#f6f6f6",
+            "text": "#5165f6",
+            "shadow": "#5165f6"
         }
     }
 ]
