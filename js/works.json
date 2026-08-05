@@ -9,7 +9,7 @@
   },  
   {
     "title": "UploadAR",
-    "type": "python",
+    "type": "react",
     "link": "https://uploadar.web.app/",
     "desc": "UploadAR is a personal project that lets users upload, discover, and share location-based augmented reality (AR) content.",
     "status": "",
