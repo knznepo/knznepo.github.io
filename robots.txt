@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/
+
+# Allow all crawlers, including search engines and AI/LLM crawlers
+User-agent: *
+Allow: /
+
+# Server-side files that aren't pages
+Disallow: /index.php
+Disallow: /.htaccess
+
+Sitemap: https://knznepo.github.io/sitemap.xml
+
+# LLM-friendly summary of this site: https://knznepo.github.io/llms.txt
