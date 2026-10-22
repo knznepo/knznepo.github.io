@@ -108,21 +108,33 @@ const moreWorksModal = document.querySelector('.modal');
 // show more works modal
 const moreWorksLink = document.querySelector('.more-works-link');
 
+const moreWorksModalClose = document.querySelector('.modal-close');
+
 moreWorksLink.onclick = (e) => {
     e.preventDefault();
     moreWorksModal.style.display = 'flex';
     setTimeout(() => {
         moreWorksModal.classList.add('open');
+        moreWorksModalClose.focus();
     }, 10);
 }
 
 // close more work modal
-const moreWorksModalClose = document.querySelector('.modal-close');
-
-moreWorksModalClose.onclick = (e) => {
-    e.preventDefault();
+const closeMoreWorks = () => {
     moreWorksModal.classList.remove('open');
     setTimeout(() => {
         moreWorksModal.style.display = 'none';
+        moreWorksLink.focus();
     }, 400);
 }
+
+moreWorksModalClose.onclick = (e) => {
+    e.preventDefault();
+    closeMoreWorks();
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && moreWorksModal.classList.contains('open')) {
+        closeMoreWorks();
+    }
+});

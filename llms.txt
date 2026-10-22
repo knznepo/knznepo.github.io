@@ -35,6 +35,7 @@ Design philosophy: "Less Noise. More Meaning." Good design is quiet but powerful
 
 ## Data
 
+- [Homepage (Markdown)](https://knznepo.github.io/index.html.md): Full homepage content as Markdown, including every project
 - [Featured works (JSON)](https://knznepo.github.io/js/works-featured.json): Structured data behind the homepage showcase slider
 - [All works (JSON)](https://knznepo.github.io/js/works.json): Full project list with type, year, status and links
 

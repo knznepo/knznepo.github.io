@@ -64,6 +64,37 @@ a:hover {
     text-decoration: underline;
 }
 
+address {
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: var(--spacing-base);
+    z-index: 9999;
+    padding: var(--spacing-sm) var(--spacing-base);
+    background: var(--color-primary);
+    color: #fff;
+    border-radius: var(--border-radius);
+}
+
+.skip-link:focus {
+    top: var(--spacing-base);
+}
+
 
 .flex {
     display: flex;
@@ -416,6 +447,7 @@ a:hover {
 }
 
 .modal-close {
+    border: 0;
     background-color: var(--color-lightgray-1);
     border-radius: 100%;
     color: #fff;
@@ -454,7 +486,7 @@ a:hover {
     padding: 0;
 }
 
-.main-header h1 a {
+.site-title a {
     text-decoration: none;
     color: var(--color-primary);
 }
@@ -462,6 +494,7 @@ a:hover {
 .site-title {
     font-family: var(--font-family-primary);
     font-size: 1.8rem;
+    font-weight: 700;
     color: var(--color-primary);
     margin-bottom: 0;
 }
@@ -867,6 +900,9 @@ a:hover {
 
 .work-nav {
     color: #fff;
+    border: 0;
+    font: inherit;
+    cursor: pointer;
 
     padding: var(--spacing-sm) var(--spacing-base);
     background: var(--color-text);
@@ -879,6 +915,14 @@ a:hover {
 }
 
 .more-works-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: 0;
+    font: inherit;
+    color: var(--color-primary);
+    cursor: pointer;
     text-decoration: none !important;
     margin-left: 48px;
 }

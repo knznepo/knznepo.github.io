@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <title>knz.</title>
+
     <meta name="title" content="knz." />
     <meta name="description" content="Hi! I’m a web designer and developer based in the Philippines with 10+ years of experience. I enjoy creating clean, responsive, and user-friendly websites—whether I’m designing layouts or coding them from scratch. I love learning new tools, experimenting with modern tech, and helping ideas come alive on the web." />
     <meta name="keywords" content="web developer philippines, web designer philippines, filipino web developer, filipino web designer, laravel developer, react developer, frontend developer, backend developer, kenaz nepomuceno, web portfolio" />
     <meta name="author" content="Kenaz Nepomuceno" />
+    <link rel="canonical" href="https://knznepo.github.io/" />
 
     <meta property="og:url" content="https://knznepo.github.io" />
     <meta property="og:type" content="website" />
@@ -20,14 +23,13 @@
     <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="knz." />
 
-    <link rel="icon" type="image/png" href="favico.ico" />
-    
-    <title>knz.</title>
-    
+    <link rel="icon" type="image/x-icon" href="favico.ico" />
+    <link rel="alternate" type="text/markdown" href="index.html.md" title="Markdown version" />
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="plugins/luge/css/luge.css">
     <!-- swipper.js -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <!-- fontawsome -->
     <script src="https://kit.fontawesome.com/56bb0df094.js" crossorigin="anonymous" defer></script>
 
@@ -43,13 +45,15 @@
 </head>
 <body>
 
+    <a href="#main" class="skip-link">Skip to content</a>
+
     <header class="main-header animate animate-slide-down animate-delay-1">
         <div class="wrapper flex justify-between align-center">
-            <h1 class="site-title">
-                <a href="#" class="random-hover">k<span class="text-flip-horizontal animate-flip-horizontal">n</span>z.</a>
-            </h1>
+            <p class="site-title">
+                <a href="/" class="random-hover" aria-label="knz. home">k<span class="text-flip-horizontal animate-flip-horizontal">n</span>z.</a>
+            </p>
 
-            <nav class="main-nav">
+            <nav class="main-nav" aria-label="Main">
                 <ul class="main-nav-links">
                     <li><a href="#works" class="random-hover">Works</a></li>
                     <li><a href="#about" class="random-hover">About</a></li>
@@ -59,227 +63,230 @@
         </div>
     </header>
 
-    <section class="hero-section">
-        <div class="hero-body">
+    <main id="main">
+
+        <section class="hero-section" aria-labelledby="hero-title">
+            <div class="hero-body">
+                <div class="wrapper">
+                    <h1 id="hero-title">Less Noise. More Meaning.</h1>
+                    <p class="animate animate-fadein-up animate-delay-08">
+                        I’m Kenaz, a designer and developer who believes that good design is quiet but powerful. My work focuses on simplicity, usability, and emotional resonance — shaping digital experiences that feel as good as they look.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-footer animate animate-fadein animate-delay-1" aria-hidden="true">
+                <div class="responsive-scroll animate-fade-in-up" title="scroll down">
+                    <span class="scroll-thisico"></span>
+                </div>
+                <small>scroll for more</small>
+            </div>
+        </section>
+
+        <section class="works-section" id="works" aria-labelledby="works-title">
             <div class="wrapper">
-                <h1>Less Noise. More Meaning.</h1>
-                <p class="animate animate-fadein-up animate-delay-08">
-                    I’m Kenaz, a designer and developer who believes that good design is quiet but powerful. My work focuses on simplicity, usability, and emotional resonance — shaping digital experiences that feel as good as they look.
-                </p>
+                <header class="section-header">
+                    <span class="animate animate-fadein-up animate-delay-08">Featured Works</span>
+                    <h2 id="works-title" class="section-title animate animate-fadein-down animate-delay-04">Showcase</h2>
+                </header>
             </div>
-        </div>
 
-        <div class="hero-footer animate animate-fadein animate-delay-1">
-            <div class="responsive-scroll animate-fade-in-up" title="scroll down">
-                <span class="scroll-thisico"></span>
-            </div>
-            <small>scroll for more</small>
-        </div>
-    </section>
+            <div class="section-body">
+                <div class="swiper" role="region" aria-roledescription="carousel" aria-label="Featured works">
+                    <div class="swiper-wrapper" id="work-slider">
 
-    <section class="works-section" id="works">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="animate animate-fadein-up animate-delay-08">Featured Works</span>
-                <h2 class="section-title animate animate-fadein-down animate-delay-04">Showcase</h2>
-            </header>
-        </div>
+                        <article v-for="item in worksSlider" class="swiper-slide" aria-roledescription="slide">
+                            <div class="works">
+                                <div class="work-item" :style="`background-color: ${item.theme.bg}; color: ${item.theme.text};`">
+                                    <div class="wrapper flex">
+                                        <div class="work-details">
+                                            <p class="work-tags">{{ item.title_tag }}</p>
+                                            <h3 class="work-title">{{ item.title }}</h3>
 
-        <section class="section-body">
-            <div class="swiper">
-                <div class="swiper-wrapper" id="work-slider">
+                                            <div class="work-description" v-html="item.description"></div>
 
-                    <div v-for="item in worksSlider" class="swiper-slide">
-                        <div class="works">
-                            <div class="work-item" :style="`background-color: ${item.theme.bg}; color: ${item.theme.text};`">
-                                <div class="wrapper flex">
-                                    <div class="work-details">
-                                        <span class="work-tags">{{ item.title_tag }}</span>
-                                        <h3 class="work-title">{{ item.title }}</h3>
-                                        
-                                        <div class="work-description" v-html="item.description"></div>
+                                            <footer class="work-details-footer flex justify-between">
+                                                <ul class="work-tech-used" aria-label="Tools used">
+                                                    <li v-for="tech in item.tech">
+                                                        <template v-if="Array.isArray(tech)">
+                                                            <a :href="tech[1]" target="_blank" rel="noopener" :aria-label="`${capitalize(tech[0])} (opens in a new tab)`" :style="`color: ${item.theme.text}`">
+                                                                <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(tech[0])">
+                                                                    <i :class="`icon-custom icon-${tech[0]}`" :title="`${capitalize(tech[0])}`" :style="`background-color: ${item.theme.text}`" aria-hidden="true"></i>
+                                                                </template>
 
-                                        <div class="work-details-footer flex justify-between">
-                                            <ul class="work-tech-used">
-                                                <li v-for="tech in item.tech">
-                                                    <template v-if="Array.isArray(tech)">
-                                                        <a :href="tech[1]" target="_blank" :style="`color: ${item.theme.text}`">
-                                                            <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(tech[0])">
-                                                                <i :class="`icon-custom icon-${tech[0]}`" :title="`${capitalize(tech[0])}`" :style="`background-color: ${item.theme.text}`"></i>
-                                                            </template>
-
-                                                            <template v-else>
-                                                                <i :class="['fab', `fa-${tech[0]}`, 'fa-lg']" :title="capitalize(tech[0])"></i>
-                                                            </template>
-                                                        </a>
-                                                    </template>
-
-                                                    <template v-else>
-
-                                                        <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(tech)">
-                                                            <i :class="`icon-custom icon-${tech}`" :title="`${capitalize(tech)}`" :style="`background-color: ${item.theme.text}`"></i>
+                                                                <template v-else>
+                                                                    <i :class="['fab', `fa-${tech[0]}`, 'fa-lg']" :title="capitalize(tech[0])" aria-hidden="true"></i>
+                                                                </template>
+                                                            </a>
                                                         </template>
 
                                                         <template v-else>
-                                                            <i :class="['fab', `fa-${tech}`, 'fa-lg']" :title="capitalize(tech)" :style="`color: ${item.theme.text}`"></i>
-                                                        </template>
-                                                        
-                                                    </template>
-                                                </li>
-                                            </ul>
 
-                                            <a :href="item.link" target="_blank" class="visit-link" :style="`color: ${item.theme.text}`"><span>Visit</span> <i class="fa-solid fa-arrow-right-long fa-lg visit-link-icon" title="Visit Link"></i></a>
+                                                            <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(tech)">
+                                                                <i :class="`icon-custom icon-${tech}`" :title="`${capitalize(tech)}`" :style="`background-color: ${item.theme.text}`" role="img" :aria-label="capitalize(tech)"></i>
+                                                            </template>
+
+                                                            <template v-else>
+                                                                <i :class="['fab', `fa-${tech}`, 'fa-lg']" :title="capitalize(tech)" :style="`color: ${item.theme.text}`" role="img" :aria-label="capitalize(tech)"></i>
+                                                            </template>
+
+                                                        </template>
+                                                    </li>
+                                                </ul>
+
+                                                <a :href="item.link" target="_blank" rel="noopener" class="visit-link" :style="`color: ${item.theme.text}`"><span>Visit<span class="visually-hidden"> {{ item.title }} (opens in a new tab)</span></span> <i class="fa-solid fa-arrow-right-long fa-lg visit-link-icon" aria-hidden="true"></i></a>
+                                            </footer>
+
                                         </div>
 
+                                        <a :href="item.link" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" :style="`box-shadow: 0px 5px 20px 0px ${item.theme.shadow}`">
+                                            <img :src="`/images/${item.thumbnail}`" :alt="`${item.title} website preview`">
+                                        </a>
                                     </div>
-
-                                    <a :href="item.link" target="_blank" class="work-thumbnail" :style="`box-shadow: 0px 5px 20px 0px ${item.theme.shadow}`">
-                                        <img :src="`/images/${item.thumbnail}`" alt="COMPASS Initiative Website Mockup">
-                                    </a>
                                 </div>
+                            </div><!-- works -->
+                        </article><!-- swiper slide -->
+
+                    </div><!-- swiper-wrapper -->
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="wrapper">
+                        <nav class="work-slider-nav" aria-label="Showcase controls">
+                            <!-- If we need navigation buttons -->
+                            <div class="flex">
+                                <button type="button" class="work-prev work-nav">Prev</button>
+                                <button type="button" class="work-next work-nav">Next</button>
                             </div>
-                        </div><!-- works -->
-                    </div><!-- swiper slide -->
 
-                </div><!-- swiper-wrapper -->
+                            <div class="flex gap-4">
+                                <button type="button" class="animate animate-fadein-left animate-delay-08 more-works-link random-hover" aria-haspopup="dialog" aria-controls="more-works-dialog">
+                                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                                    <span>More Works</span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                </div><!-- swiper -->
+            </div>
 
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+            <!-- More Works Modal -->
+            <div class="modal" id="more-works-dialog" role="dialog" aria-modal="true" aria-labelledby="more-works-title">
+                <div class="modal-box">
+                    <header class="flex justify-between align-center">
+                        <h3 id="more-works-title">More Works</h3>
 
-                <div class="wrapper">
-                    <nav class="work-slider-nav">
-                        <!-- If we need navigation buttons -->
-                        <div class="flex">
-                            <div class="work-prev work-nav">Prev</div>
-                            <div class="work-next work-nav">Next</div>
-                        </div>
-                        
-                        <div class="flex gap-4">
-                            <a href="#more-works" class="animate animate-fadein-left animate-delay-08 more-works-link random-hover">
-                                <i class="fa-solid fa-code"></i>
-                                <span>More Works</span>
-                            </a>
-                        </div>
-                    </nav>
+                        <button type="button" class="modal-close" aria-label="Close"><i class="fa-solid fa-xmark fa-sm" aria-hidden="true"></i></button>
+                    </header>
+
+                    <div id="more-works" data-lg-smooth>
+                        <article class="flex align-center justify-between more-works-item" v-for="work in works">
+                            <div class="more-works-details">
+                                <h4>{{ work.title }}</h4>
+                                <div v-html="work.desc"></div>
+
+                                <ul class="more-works-meta flex gap-xl">
+                                    <li><b>Year:</b> {{ work.year }}</li>
+                                    <li v-if="work.status != ''"><b>Status:</b> {{ work.status }}</li>
+                                    <li>
+                                        <a :href="`${work.link}`" target="_blank" rel="noopener" class="visit-link align-center"><b>Visit<span class="visually-hidden"> {{ work.title }} (opens in a new tab)</span></b> <i class="fa-solid fa-arrow-right-long fa-lg visit-link-icon" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="more-works-icon flex justify-center" aria-hidden="true">
+                                <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(work.type)">
+                                    <i :class="`icon-custom icon-${work.type}`"></i>
+                                </template>
+
+                                <template v-else>
+                                    <i :class="`fab fa-${work.type} fa-2xl`"></i>
+                                </template>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-            </div><!-- swiper -->
+            </div>
         </section>
 
-        <!-- More Works Modal -->
-        <div class="modal">
-            <div class="modal-box">
-                <header class="flex justify-between align-center">
-                    <h3>More Works</h3>
-
-                    <a href="#" class="modal-close"><i class="fa-solid fa-xmark fa-sm"></i></a>
+        <section class="about-section" id="about" aria-labelledby="about-title">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="animate animate-fadein-up animate-delay-1">About Me</span>
+                    <h2 id="about-title" class="section-title animate animate-fadein-down animate-delay-02">Web <i>Designer</i> & Developer</h2>
                 </header>
 
-                <section id="more-works" data-lg-smooth>
-                    <div class="flex align-center justify-between more-works-item" v-for="work in works">
-                        <div class="more-works-details">
-                            <h4>{{ work.title }}</h4>
-                            <div v-html="work.desc"></div>
+                <div class="about-me-container">
+                    <img src="images/me.webp" alt="Portrait of Kenaz Nepomuceno" id="me" class="animate animate-fadein-left animate-delay-1" loading="lazy">
+                    <div class="animate animate-fadein-right animate-delay-08 about-me-text">
+                        <p>Hi! I’m a web designer and developer based in the Philippines with 10+ years of experience. I enjoy creating clean, responsive, and user-friendly websites—whether I’m designing layouts or coding them from scratch. I love learning new tools, experimenting with modern tech, and helping ideas come alive on the web.</p>
 
-                            <ul class="more-works-meta flex gap-xl">
-                                <li><b>Year:</b> {{ work.year }}</li>
-                                <li v-if="work.status != ''"><b>Status:</b> {{ work.status }}</li>
-                                <li>
-                                    <a :href="`${work.link}`" target="_blank" class="visit-link align-center"><b>Visit</b> <i class="fa-solid fa-arrow-right-long fa-lg visit-link-icon" title="Visit Link"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="more-works-icon flex justify-center">
-                            <template v-if="['photoshop', 'nextjs', 'codeigniter'].includes(work.type)">
-                                <i :class="`icon-custom icon-${work.type}`"></i>
-                            </template>
-
-                            <template v-else>
-                                <i :class="`fab fa-${work.type} fa-2xl`"></i>
-                            </template>
-                        </div>
+                        <h3>Skills & Expertise</h3>
+                        <ul class="tech-stack">
+                            <li>Laravel</li>
+                            <li>Codeigniter</li>
+                            <li>WordPress</li>
+                            <li>Drupal</li>
+                            <li>Shopify</li>
+                            <li>ReactJS</li>
+                            <li>VueJS</li>
+                            <li>NextJS</li>
+                            <li>NodeJS</li>
+                            <li>Sass</li>
+                            <li>Tailwind</li>
+                            <li>Elementor</li>
+                            <li>Divi</li>
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>Lightroom</li>
+                        </ul>
                     </div>
-                </section>
-            </div>
-        </div>
-    </section>
-                                                            
-    <section class="about-section" id="about">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="animate animate-fadein-up animate-delay-1">About Me</span>
-                <h2 class="section-title animate animate-fadein-down animate-delay-02">Web <i>Designer</i> & Developer</h2>
-            </header>
-
-            <div class="about-me-container">
-                <img src="images/me.webp" alt="kenaz" id="me" class="animate animate-fadein-left animate-delay-1">
-                <div class="animate animate-fadein-right animate-delay-08 about-me-text">
-                    <p>Hi! I’m a web designer and developer based in the Philippines with 10+ years of experience. I enjoy creating clean, responsive, and user-friendly websites—whether I’m designing layouts or coding them from scratch. I love learning new tools, experimenting with modern tech, and helping ideas come alive on the web.</p>
-                    
-                    <h3>Skills & Expertise</h3>
-                    <ul class="tech-stack">
-                        <li>Laravel</li>
-                        <li>Codeigniter</li>
-                        <li>WordPress</li>
-                        <li>Drupal</li>
-                        <li>Shopify</li>
-                        <li>ReactJS</li>
-                        <li>VueJS</li>
-                        <li>NextJS</li>
-                        <li>NodeJS</li>
-                        <li>Sass</li>
-                        <li>Tailwind</li>
-                        <li>Elementor</li>
-                        <li>Divi</li>
-                        <li>Figma</li>
-                        <li>Photoshop</li>
-                        <li>Lightroom</li>
-                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="contact-section" id="contact">
+    </main>
+
+    <footer class="contact-section" id="contact">
         <div class="wrapper">
             <div class="flex justify-between">
-                <section>
+                <section aria-labelledby="contact-title">
                     <header class="section-header">
                         <span class="animate animate-fadein-up animate-delay-08">Hire Me</span>
-                        <h2 class="section-title animate animate-fadein-down animate-delay-02">Let's Work Together</h2>
+                        <h2 id="contact-title" class="section-title animate animate-fadein-down animate-delay-02">Let's Work Together</h2>
                     </header>
 
                     <p class="animate animate-fadein-down animate-delay-1 mb-lg">Send me a message and let’s make something great.</p>
 
-                    <div class="flex flex-column gap-2 animate animate-fadein-down animate-delay-2">
+                    <address class="flex flex-column gap-2 animate animate-fadein-down animate-delay-2">
                         <div class="flex align-center email-link">
-                            <i class="fa fa-envelope"></i><a href="mailto:kenaznepomuceno@gmail.com">kenaznepomuceno@gmail.com</a>
+                            <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:kenaznepomuceno@gmail.com">kenaznepomuceno@gmail.com</a>
                         </div>
 
                         <div class="flex align-center email-link">
-                            <i class="fa fa-location-dot"></i><span>Philippines</span>
+                            <i class="fa fa-location-dot" aria-hidden="true"></i><span>Philippines</span>
                         </div>
-                    </div>
+                    </address>
                 </section>
 
-                <section class="flex flex-end align-center">
+                <nav class="flex flex-end align-center" aria-labelledby="history-title">
                     <div class="history-log animate animate-fadein animate-delay-2">
-                        <p>History</p>
+                        <p id="history-title">History</p>
                         <ul>
-                            <li><a href="2019-2025">2019-2025</a></li>
-                            <li><a href="2017-2018">2017-2018</a></li>
+                            <li><a href="2019-2025/">2019-2025</a></li>
+                            <li><a href="2017-2018/">2017-2018</a></li>
                         </ul>
                     </div>
-                </section>
+                </nav>
             </div>
         </div>
-    </section>
+    </footer>
 
     <script src="plugins/luge/js/luge.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
-    <scrtip src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" defer></script>
-    
+
     <script src="js/scripts.js"></script>
 </body>
 </html>
