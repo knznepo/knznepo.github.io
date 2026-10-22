@@ -42,6 +42,8 @@ const swiper = new Swiper('.swiper', {
     pagination: { el: '.swiper-pagination' },
     navigation: { nextEl: '.work-next', prevEl: '.work-prev' },
     speed: prefersReducedMotion ? 0 : 2000,
+    // Screen reader labels must contain the visible "Prev"/"Next" text
+    a11y: { prevSlideMessage: 'Prev slide', nextSlideMessage: 'Next slide' },
 });
 
 const moreWorksModal = document.querySelector('.modal');

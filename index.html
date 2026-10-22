@@ -66,7 +66,9 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <!-- Loads without blocking the first paint; text shows in a fallback font until it arrives -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="plugins/luge/css/luge.css">
@@ -138,8 +140,8 @@
                     <div class="swiper-wrapper" id="work-slider">
 
                         <!-- build:featured -->
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #20354D; color: #fff;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -160,15 +162,15 @@
                                         </div>
 
                                         <a href="https://youthquiz.com/" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #20354d2e">
-                                            <img src="images/thumbnail-yq.webp" alt="Youth Quiz website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-yq.webp" srcset="images/thumbnail-yq-800.webp 800w, images/thumbnail-yq.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="Youth Quiz website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #f4f4f4; color: #272e42;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -189,15 +191,15 @@
                                         </div>
 
                                         <a href="https://nvbible.org" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #dddcdc">
-                                            <img src="images/thumbnail-nvb.webp" alt="New Vietnamese Bible website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-nvb.webp" srcset="images/thumbnail-nvb-800.webp 800w, images/thumbnail-nvb.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="New Vietnamese Bible website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #578266; color: #fff;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -218,15 +220,15 @@
                                         </div>
 
                                         <a href="https://compassinitiative.org" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #578266">
-                                            <img src="images/thumbnail-compass-initiative.webp" alt="Compass Initiative website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-compass-initiative.webp" srcset="images/thumbnail-compass-initiative-800.webp 800w, images/thumbnail-compass-initiative.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="Compass Initiative website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #151515; color: #F9DD3B;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -247,15 +249,15 @@
                                         </div>
 
                                         <a href="http://mxmessiahfairgrounds.com" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #151515">
-                                            <img src="images/thumbnail-mmf.webp" alt="Mx Messiah Fairgrounds website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-mmf.webp" srcset="images/thumbnail-mmf-800.webp 800w, images/thumbnail-mmf.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="Mx Messiah Fairgrounds website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #594322; color: #fff;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -274,15 +276,15 @@
                                         </div>
 
                                         <a href="https://www.behance.net/gallery/120742557/Coffibar-Logo" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #594322">
-                                            <img src="images/thumbnail-coffibar.webp" alt="Coffibar website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-coffibar.webp" srcset="images/thumbnail-coffibar-800.webp 800w, images/thumbnail-coffibar.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="Coffibar website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #094137; color: #fff;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -301,15 +303,15 @@
                                         </div>
 
                                         <a href="https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=932%3A1237&amp;node-id=939-1243&amp;viewport=203%2C169%2C0.33&amp;t=T3jivaxW0EE6mume-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;starting-point-node-id=1441%3A5734" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #094137">
-                                            <img src="images/thumbnail-ranchobernardo.webp" alt="Rancho Bernardo website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-ranchobernardo.webp" srcset="images/thumbnail-ranchobernardo-800.webp 800w, images/thumbnail-ranchobernardo.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="Rancho Bernardo website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: #f6f6f6; color: #5165f6;">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -329,12 +331,12 @@
                                         </div>
 
                                         <a href="https://shoutout-io.web.app/" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px #5165f6">
-                                            <img src="images/thumbnail-shoutout.webp" alt="Shoutout website preview" width="1778" height="957" loading="lazy" decoding="async">
+                                            <img src="images/thumbnail-shoutout.webp" srcset="images/thumbnail-shoutout-800.webp 800w, images/thumbnail-shoutout.webp 1778w" sizes="(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)" alt="Shoutout website preview" width="1778" height="957" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
 
                         <!-- /build:featured -->
 
@@ -1092,9 +1094,9 @@
         </div>
     </footer>
 
-    <script src="plugins/luge/js/luge.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12.2.0/swiper-bundle.min.js"></script>
+    <script src="plugins/luge/js/luge.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12.2.0/swiper-bundle.min.js" defer></script>
 
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" defer></script>
 </body>
 </html>

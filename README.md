@@ -19,6 +19,13 @@ node tools/build.mjs
 
 This renders the projects into `index.html` and `index.html.md`, between the `<!-- build:... -->` markers. Don't edit the content between those markers by hand; it gets overwritten.
 
+New featured thumbnails need two files in `images/`: the full image (1778×957) and an 800px-wide copy for phones:
+
+```sh
+cwebp -q 78 -m 6 source.png -o images/thumbnail-name.webp
+cwebp -q 78 -m 6 -resize 800 0 source.png -o images/thumbnail-name-800.webp
+```
+
 Also update by hand when things change:
 
 - `llms.txt`: summary of the site for LLMs

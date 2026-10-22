@@ -576,7 +576,7 @@ img {
 .hero-footer small {
     font-size: 12px;
     margin-top: 10px;
-    color: var(--color-lightgray-1);
+    color: var(--color-lightgray);
 }
 
 /* Keyframes moved to top-level (SCSS doesn't allow them inside a selector in pure CSS) */
@@ -1221,6 +1221,11 @@ img {
 .history-log li {
     list-style: none;
     font-size: var(--font-size-sm);
+}
+
+.history-log li a {
+    display: inline-block;
+    padding: 4px 0;
 }
 
 /* ACCESSIBILITY START */

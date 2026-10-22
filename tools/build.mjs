@@ -21,6 +21,14 @@ const CUSTOM_ICONS = ['photoshop', 'nextjs', 'codeigniter'];
 const THUMB_WIDTH = 1778;
 const THUMB_HEIGHT = 957;
 
+// Smaller copy for phones: images/<name>-800.webp
+// Create with: cwebp -q 78 -resize 800 0 <source> -o images/<name>-800.webp
+const THUMB_SMALL_WIDTH = 800;
+const smallThumb = (file) => file.replace(/\.webp$/, `-${THUMB_SMALL_WIDTH}.webp`);
+
+// Matches .work-thumbnail widths in css/styles.css
+const THUMB_SIZES = '(min-width: 1024px) 982px, (min-width: 768px) 69vw, calc(100vw - 40px)';
+
 const escape = (str) => String(str)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
@@ -76,8 +84,8 @@ const techItem = (tech, color) => {
 };
 
 const featuredSlide = (item) => `
-                        <article class="swiper-slide" aria-roledescription="slide">
-                            <div class="works">
+                        <div class="swiper-slide">
+                            <article class="works">
                                 <div class="work-item" style="background-color: ${item.theme.bg}; color: ${item.theme.text};">
                                     <div class="wrapper flex">
                                         <div class="work-details">
@@ -96,12 +104,12 @@ const featuredSlide = (item) => `
                                         </div>
 
                                         <a href="${escape(item.link)}" target="_blank" rel="noopener" class="work-thumbnail" tabindex="-1" aria-hidden="true" style="box-shadow: 0px 5px 20px 0px ${item.theme.shadow}">
-                                            <img src="images/${escape(item.thumbnail)}" alt="${escape(item.title)} website preview" width="${THUMB_WIDTH}" height="${THUMB_HEIGHT}" loading="lazy" decoding="async">
+                                            <img src="images/${escape(item.thumbnail)}" srcset="images/${escape(smallThumb(item.thumbnail))} ${THUMB_SMALL_WIDTH}w, images/${escape(item.thumbnail)} ${THUMB_WIDTH}w" sizes="${THUMB_SIZES}" alt="${escape(item.title)} website preview" width="${THUMB_WIDTH}" height="${THUMB_HEIGHT}" loading="lazy" decoding="async">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </article>`;
+                            </article>
+                        </div>`;
 
 const moreWorksItem = (work) => {
     const typeIcon = CUSTOM_ICONS.includes(work.type)
