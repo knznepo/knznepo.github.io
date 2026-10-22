@@ -1,0 +1,45 @@
+# knz. — Kenaz Nepomuceno
+
+> Portfolio of Kenaz Nepomuceno, a web designer and developer based in the Philippines with 10+ years of experience (building websites since 2011). Kenaz designs in Figma and builds clean, responsive, user-friendly websites from scratch or on CMS platforms, for churches, nonprofits, schools, media and small businesses.
+
+- Site: https://knznepo.github.io
+- Contact / hiring: kenaznepomuceno@gmail.com
+- Location: Philippines (works remotely)
+- Services: web design (UI/UX in Figma), front-end and back-end development, WordPress/Elementor/Divi theme builds, Drupal development and maintenance, CMS migrations, branding
+- Skills: Laravel, CodeIgniter, WordPress, Drupal, Shopify, ReactJS, VueJS, NextJS, NodeJS, Sass, Tailwind, Elementor, Divi, Figma, Photoshop, Lightroom
+
+Design philosophy: "Less Noise. More Meaning." Good design is quiet but powerful, so the work focuses on simplicity, usability and emotional resonance.
+
+## Featured Work
+
+- [Youth Quiz](https://youthquiz.com/): Online study platform that helps teens engage with Scripture through memorization and study tools. Web design and development with Figma, WordPress and Elementor (2026).
+- [New Vietnamese Bible](https://nvbible.org): Redesign and rebuild of a Vietnamese Bible platform with reading, audio and basic e-commerce. Figma, Laravel and Vue.js (2024).
+- [Compass Initiative](https://compassinitiative.org): Nazarene initiative addressing ministers' financial difficulties. Figma redesign, custom Elementor theme and a Drupal-to-WordPress CMS migration (2025, in progress).
+- [Mx Messiah Fairgrounds](http://mxmessiahfairgrounds.com): News media site covering motocross events. Figma, WordPress and Elementor (2024).
+- [Coffibar](https://www.behance.net/gallery/120742557/Coffibar-Logo): Brand identity for a local startup coffee shop (2021).
+- [Rancho Bernardo](https://www.figma.com/proto/NopyzKxv0RyyyRFzTmm4i7/Projects?page-id=932%3A1237&node-id=939-1243&viewport=203%2C169%2C0.33&t=T3jivaxW0EE6mume-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1441%3A5734): Homepage redesign concept for a luxury resort in the Philippines (Figma, 2025).
+- [Shoutout](https://shoutout-io.web.app/): Personal project for learning NextJS and Firebase. Users post shoutouts and see them on a map by location (2021).
+
+## Other Projects
+
+- [UploadAR](https://uploadar.web.app/): Personal React project for uploading, discovering and sharing location-based augmented reality content (2026).
+- [Library AI](https://library-ai.streamlit.app/): Personal Python project. Upload documents and ask questions answered only from that content, using Google Gemini and FAISS (2025).
+- [WHDL](https://whdl.org): Library website. Ongoing Drupal development, maintenance and feature work (2024–present).
+- [Asia-Pacific Nazarene Theological Seminary](https://apnts.edu.ph): Seminary website redesign with WordPress and Divi (2023).
+- [Jesus Film Harvest Partners](https://jfhp.org): Redesign with WordPress and Elementor (2023). Kenaz also designed and built the earlier Drupal version (2018).
+- [Opportunities](https://opportunities.nazarene.org/): Job board for the Nazarene community, built on WordPress (2023).
+- [Missionary Profile](http://missionary.nazarene.org/): Profile search with filters. VueJS front end on a Laravel back end (2020).
+- [USA-Canada Nazarene](http://usacanadaregion.org/): Regional church website on Drupal (2019).
+- [NCM](https://ncm.org/): Nazarene Compassionate Ministries website on Drupal (2018).
+- [RickAndMorty](https://knznepo.github.io/RickAndMorty/): Personal ReactJS and GraphQL search app (2021).
+
+## Data
+
+- [Featured works (JSON)](https://knznepo.github.io/js/works-featured.json): Structured data behind the homepage showcase slider
+- [All works (JSON)](https://knznepo.github.io/js/works.json): Full project list with type, year, status and links
+
+## Optional
+
+- [Portfolio 2019–2025](https://knznepo.github.io/2019-2025/): Previous version of the portfolio
+- [Portfolio 2017–2018](https://knznepo.github.io/2017-2018/): Earliest archived version of the portfolio
+- Earlier and archived work (2011–2019): Nazarene.org (Drupal), FEBC Philippines, Harris Memorial College, Vision441, Mgroup, World Missions Communications Asia-Pacific, conference registration systems in CodeIgniter (eMerge 2016, NYI Manila, Unleash 2019) and internal tools (MPDS, APResource file storage in Laravel/VueJS)
